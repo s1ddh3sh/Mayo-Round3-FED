@@ -89,20 +89,6 @@
         "fixed-scalars": "legs",
         "output": "out"
     },
-    "example_mayo": {
-        "secret-buf": "sk",
-        "output": "ret"
-    },
-    "expand_P1_P2": {
-        "secret-buf": "P",
-        "fixed-scalars": "keep_p2_packed",
-        "output": "P"
-    },
-    "expand_sk_internal": {
-        "secret-buf": "csk",
-        "fixed-scalars": "materialize_l",
-        "output": "sk"
-    },
     "inverse_f": {
         "secret-buf": "a",
         "output": "ret"
