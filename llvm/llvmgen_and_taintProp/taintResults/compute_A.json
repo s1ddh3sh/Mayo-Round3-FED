@@ -1,0 +1,86 @@
+{
+  "4": {
+    "instr": "  call void @mayo_memset(ptr %A, i8 0, i32 6400), !dbg !146",
+    "type": "CallInst",
+    "callee": "mayo_memset"
+  },
+  "24": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %VtL, i32 %add.ptr.idx, !dbg !173",
+    "type": "GetElementPtrInst"
+  },
+  "25": {
+    "instr": "  call fastcc void @m_compute_A_acc(ptr noundef nonnull %A, i32 noundef 80, i32 noundef %div3, i32 noundef %mul5, ptr noundef %add.ptr, i32 noundef 8, i32 noundef 5, i32 noundef %mul4) #4, !dbg !174",
+    "type": "CallInst",
+    "callee": "m_compute_A_acc"
+  },
+  "30": {
+    "instr": "  %add.ptr14 = getelementptr inbounds nuw i8, ptr %VtL, i32 %add.ptr14.idx, !dbg !179",
+    "type": "GetElementPtrInst"
+  },
+  "31": {
+    "instr": "  call fastcc void @m_compute_A_acc(ptr noundef nonnull %A, i32 noundef 80, i32 noundef %div3, i32 noundef %mul11, ptr noundef %add.ptr14, i32 noundef 8, i32 noundef 5, i32 noundef %mul4) #4, !dbg !180",
+    "type": "CallInst",
+    "callee": "m_compute_A_acc"
+  },
+  "39": {
+    "instr": "  call fastcc void @transpose_16x16_nibbles(ptr noundef nonnull %add.ptr21) #4, !dbg !194",
+    "type": "CallInst",
+    "callee": "transpose_16x16_nibbles"
+  },
+  "77": {
+    "instr": "  %3 = load i64, ptr %arrayidx58, align 8, !dbg !270",
+    "type": "LoadInst"
+  },
+  "79": {
+    "instr": "  store i64 %3, ptr %arrayidx59, align 8, !dbg !272",
+    "type": "StoreInst"
+  },
+  "87": {
+    "instr": "  store i64 0, ptr %arrayidx68, align 8, !dbg !286",
+    "type": "StoreInst"
+  },
+  "98": {
+    "instr": "  call fastcc void @m_gf16_mulc_xor(ptr noundef nonnull %add.ptr78, ptr noundef nonnull %ft_src, i32 noundef 55, i8 noundef zeroext %4, ptr noundef nonnull %arrayidx81) #4, !dbg !302",
+    "type": "CallInst",
+    "callee": "m_gf16_mulc_xor"
+  },
+  "105": {
+    "instr": "  %5 = load i64, ptr %arrayidx91, align 8, !dbg !312",
+    "type": "LoadInst"
+  },
+  "112": {
+    "instr": "  %6 = load i64, ptr %arrayidx97, align 8, !dbg !320",
+    "type": "LoadInst"
+  },
+  "113": {
+    "instr": "  %xor = xor i64 %6, %5, !dbg !320",
+    "type": "BinOp"
+  },
+  "114": {
+    "instr": "  store i64 %xor, ptr %arrayidx97, align 8, !dbg !320",
+    "type": "StoreInst"
+  },
+  "119": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %ft_src, i32 noundef 440) #4, !dbg !329",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  },
+  "120": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %ft_dst, i32 noundef 472) #4, !dbg !330",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  },
+  "136": {
+    "instr": "  %add.ptr123 = getelementptr inbounds nuw i8, ptr %A_out, i32 %mul122, !dbg !359",
+    "type": "GetElementPtrInst"
+  },
+  "137": {
+    "instr": "  %add.ptr124 = getelementptr inbounds nuw i8, ptr %add.ptr123, i32 %c115.0, !dbg !360",
+    "type": "GetElementPtrInst"
+  },
+  "141": {
+    "instr": "  call fastcc void @decode(ptr noundef nonnull %arrayidx121, ptr noundef nonnull %add.ptr124, i32 noundef %cond) #4, !dbg !362",
+    "type": "CallInst",
+    "callee": "decode"
+  }
+}

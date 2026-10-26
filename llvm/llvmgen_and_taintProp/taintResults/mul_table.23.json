@@ -1,0 +1,30 @@
+{
+  "0": {
+    "instr": "  %conv = zext nneg i8 %b to i32, !dbg !134",
+    "type": "CastInst"
+  },
+  "1": {
+    "instr": "  %mul = mul nuw nsw i32 %conv, 134480385, !dbg !135",
+    "type": "BinOp"
+  },
+  "2": {
+    "instr": "  %and = and i32 %mul, 1894838512, !dbg !138",
+    "type": "BinOp"
+  },
+  "3": {
+    "instr": "  %shr = lshr exact i32 %and, 4, !dbg !140",
+    "type": "BinOp"
+  },
+  "4": {
+    "instr": "  %shr1 = lshr exact i32 %and, 3, !dbg !141",
+    "type": "BinOp"
+  },
+  "5": {
+    "instr": "  %0 = xor i32 %shr, %shr1, !dbg !142",
+    "type": "BinOp"
+  },
+  "6": {
+    "instr": "  %xor2 = xor i32 %0, %mul, !dbg !142",
+    "type": "BinOp"
+  }
+}

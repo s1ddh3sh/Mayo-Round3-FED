@@ -1,0 +1,31 @@
+{
+  "4": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %a, i32 %i.0, !dbg !150",
+    "type": "GetElementPtrInst"
+  },
+  "5": {
+    "instr": "  %0 = load i8, ptr %add.ptr, align 1, !dbg !153",
+    "type": "LoadInst"
+  },
+  "6": {
+    "instr": "  %add.ptr6 = getelementptr inbounds nuw i8, ptr %b, i32 %i.0, !dbg !154",
+    "type": "GetElementPtrInst"
+  },
+  "7": {
+    "instr": "  %1 = load i8, ptr %add.ptr6, align 1, !dbg !155",
+    "type": "LoadInst"
+  },
+  "8": {
+    "instr": "  %call = call fastcc zeroext i8 @add_f(i8 noundef zeroext %0, i8 noundef zeroext %1) #4, !dbg !156",
+    "type": "CallInst",
+    "callee": "add_f"
+  },
+  "9": {
+    "instr": "  %add.ptr9 = getelementptr inbounds nuw i8, ptr %c, i32 %i.0, !dbg !157",
+    "type": "GetElementPtrInst"
+  },
+  "10": {
+    "instr": "  store i8 %call, ptr %add.ptr9, align 1, !dbg !158",
+    "type": "StoreInst"
+  }
+}

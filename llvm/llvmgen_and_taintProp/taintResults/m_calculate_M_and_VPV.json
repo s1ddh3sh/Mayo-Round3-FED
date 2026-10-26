@@ -1,0 +1,43 @@
+{
+  "2": {
+    "instr": "  call fastcc void @compute_M_and_VPV(ptr noundef %p, ptr noundef %Vdec, ptr noundef %P2_or_L, ptr noundef %P1, ptr noundef %Mtmp, ptr noundef %VPV) #4, !dbg !150",
+    "type": "CallInst",
+    "callee": "compute_M_and_VPV"
+  },
+  "8": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %VPV, i32 %add.ptr.idx, !dbg !163",
+    "type": "GetElementPtrInst"
+  },
+  "16": {
+    "instr": "  %0 = getelementptr inbounds nuw i8, ptr %Vdec, i32 %mul7, !dbg !178",
+    "type": "GetElementPtrInst"
+  },
+  "17": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i8, ptr %0, i32 %r.0, !dbg !178",
+    "type": "GetElementPtrInst"
+  },
+  "18": {
+    "instr": "  %1 = load i8, ptr %arrayidx, align 1, !dbg !178",
+    "type": "LoadInst"
+  },
+  "19": {
+    "instr": "  call fastcc void @mvec_mul_add(i32 noundef 5, ptr noundef %add.ptr6, i8 noundef zeroext %1, ptr noundef %add.ptr) #4, !dbg !179",
+    "type": "CallInst",
+    "callee": "mvec_mul_add"
+  },
+  "24": {
+    "instr": "  call fastcc void @m_lambda_o_correction(ptr noundef %p, ptr noundef %lambda, ptr noundef %O, ptr noundef %Mtmp) #4, !dbg !189",
+    "type": "CallInst",
+    "callee": "m_lambda_o_correction"
+  },
+  "26": {
+    "instr": "  call fastcc void @compute_M_and_VPV_implicit(ptr noundef %p, ptr noundef %Vdec, ptr noundef %P2_or_L, ptr noundef %P1, ptr noundef %O, ptr noundef %lambda, ptr noundef %Mtmp, ptr noundef %VPV) #4, !dbg !191",
+    "type": "CallInst",
+    "callee": "compute_M_and_VPV_implicit"
+  },
+  "28": {
+    "instr": "  call fastcc void @m_lambda_oil(ptr noundef %p, ptr noundef %lambda, ptr noundef %Mtmp) #4, !dbg !193",
+    "type": "CallInst",
+    "callee": "m_lambda_oil"
+  }
+}

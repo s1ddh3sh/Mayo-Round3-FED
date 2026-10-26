@@ -1,0 +1,6 @@
+{
+  "0": {
+    "instr": "  %xor1 = xor i8 %a, %b, !dbg !135",
+    "type": "BinOp"
+  }
+}

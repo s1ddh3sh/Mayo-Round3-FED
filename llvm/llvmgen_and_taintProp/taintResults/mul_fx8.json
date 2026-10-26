@@ -1,0 +1,86 @@
+{
+  "0": {
+    "instr": "  %0 = and i8 %a, 1, !dbg !135",
+    "type": "BinOp"
+  },
+  "1": {
+    "instr": "  %conv1 = zext nneg i8 %0 to i64, !dbg !136",
+    "type": "CastInst"
+  },
+  "2": {
+    "instr": "  %mul = mul nuw nsw i64 %b, %conv1, !dbg !137",
+    "type": "BinOp"
+  },
+  "3": {
+    "instr": "  %1 = and i8 %a, 2, !dbg !139",
+    "type": "BinOp"
+  },
+  "4": {
+    "instr": "  %conv4 = zext nneg i8 %1 to i64, !dbg !140",
+    "type": "CastInst"
+  },
+  "5": {
+    "instr": "  %mul5 = mul i64 %b, %conv4, !dbg !141",
+    "type": "BinOp"
+  },
+  "6": {
+    "instr": "  %xor = xor i64 %mul, %mul5, !dbg !142",
+    "type": "BinOp"
+  },
+  "7": {
+    "instr": "  %2 = and i8 %a, 4, !dbg !143",
+    "type": "BinOp"
+  },
+  "8": {
+    "instr": "  %conv8 = zext nneg i8 %2 to i64, !dbg !144",
+    "type": "CastInst"
+  },
+  "9": {
+    "instr": "  %mul9 = mul i64 %b, %conv8, !dbg !145",
+    "type": "BinOp"
+  },
+  "10": {
+    "instr": "  %xor10 = xor i64 %xor, %mul9, !dbg !146",
+    "type": "BinOp"
+  },
+  "11": {
+    "instr": "  %3 = and i8 %a, 8, !dbg !147",
+    "type": "BinOp"
+  },
+  "12": {
+    "instr": "  %conv13 = zext nneg i8 %3 to i64, !dbg !148",
+    "type": "CastInst"
+  },
+  "13": {
+    "instr": "  %mul14 = mul i64 %b, %conv13, !dbg !149",
+    "type": "BinOp"
+  },
+  "14": {
+    "instr": "  %xor15 = xor i64 %xor10, %mul14, !dbg !150",
+    "type": "BinOp"
+  },
+  "15": {
+    "instr": "  %shr = lshr i64 %xor15, 4, !dbg !152",
+    "type": "BinOp"
+  },
+  "16": {
+    "instr": "  %and16 = lshr i64 %xor15, 3, !dbg !153",
+    "type": "BinOp"
+  },
+  "17": {
+    "instr": "  %shr18 = and i64 %and16, 1012762419733073422, !dbg !153",
+    "type": "BinOp"
+  },
+  "18": {
+    "instr": "  %4 = xor i64 %shr, %shr18, !dbg !154",
+    "type": "BinOp"
+  },
+  "19": {
+    "instr": "  %xor19 = xor i64 %4, %xor15, !dbg !154",
+    "type": "BinOp"
+  },
+  "20": {
+    "instr": "  %and20 = and i64 %xor19, 1085102592571150095, !dbg !155",
+    "type": "BinOp"
+  }
+}

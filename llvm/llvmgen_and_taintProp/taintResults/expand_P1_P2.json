@@ -1,0 +1,7 @@
+{
+  "0": {
+    "instr": "  %call = call i32 @AES_128_CTR(ptr noundef %P, i32 noundef 155200, ptr noundef %seed_pk, i32 noundef 16) #4, !dbg !141",
+    "type": "CallInst",
+    "callee": "AES_128_CTR"
+  }
+}

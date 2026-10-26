@@ -1,0 +1,13 @@
+scheme,function,fault,source,test,detected,detail
+mayo,mat_add,loadStoreSkip/mat_add_line10_mem,correction_paired_result.txt,correction,no,no position with disagreeing pairs
+mayo,mat_add,loadStoreSkip/mat_add_line10_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'; eph_secret: the changed output positions do not hold input 'a'
+mayo,mat_add,loadStoreSkip/mat_add_line10_mem,ineffective_paired_result.txt,ineffective,no,no position with disagreeing pairs
+mayo,mat_add,loadStoreSkip/mat_add_line5_mem,correction_paired_result.txt,correction,no,no position with disagreeing pairs
+mayo,mat_add,loadStoreSkip/mat_add_line5_mem,direct_leak_result.txt,direct_leak,yes,secret-buf: output 'c' at [0] holds input 'b' at the same index in all 16 trace(s) where the fault changed it
+mayo,mat_add,loadStoreSkip/mat_add_line5_mem,ineffective_paired_result.txt,ineffective,no,no position with disagreeing pairs
+mayo,mat_add,loadStoreSkip/mat_add_line7_mem,correction_paired_result.txt,correction,yes,pos 0: 15/16 secret values with y1 = y2 xor alpha
+mayo,mat_add,loadStoreSkip/mat_add_line7_mem,direct_leak_result.txt,direct_leak,yes,eph_secret: output 'c' at [0] holds input 'a' at the same index in all 15 trace(s) where the fault changed it
+mayo,mat_add,loadStoreSkip/mat_add_line7_mem,ineffective_paired_result.txt,ineffective,yes,pos 0: 15/120 pairs disagree
+mayo,mat_add,loopOrFuncSkip/mat_add_fnSkip_add_f_line8,correction_paired_result.txt,correction,yes,pos 0: 15/16 secret values with y1 = y2 xor alpha
+mayo,mat_add,loopOrFuncSkip/mat_add_fnSkip_add_f_line8,direct_leak_result.txt,direct_leak,yes,eph_secret: output 'c' at [0] holds input 'a' at the same index in all 15 trace(s) where the fault changed it
+mayo,mat_add,loopOrFuncSkip/mat_add_fnSkip_add_f_line8,ineffective_paired_result.txt,ineffective,yes,pos 0: 15/120 pairs disagree

@@ -1,0 +1,66 @@
+{
+  "2": {
+    "instr": "  %mdec.addr.0 = phi ptr [ %mdec, %entry ], [ %incdec.ptr5, %for.body ]",
+    "type": "PHINode"
+  },
+  "6": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i8, ptr %m, i32 %i.0, !dbg !142",
+    "type": "GetElementPtrInst"
+  },
+  "7": {
+    "instr": "  %1 = load i8, ptr %arrayidx, align 1, !dbg !142",
+    "type": "LoadInst"
+  },
+  "8": {
+    "instr": "  %2 = and i8 %1, 15, !dbg !144",
+    "type": "BinOp"
+  },
+  "9": {
+    "instr": "  %incdec.ptr = getelementptr inbounds nuw i8, ptr %mdec.addr.0, i32 1, !dbg !145",
+    "type": "GetElementPtrInst"
+  },
+  "10": {
+    "instr": "  store i8 %2, ptr %mdec.addr.0, align 1, !dbg !146",
+    "type": "StoreInst"
+  },
+  "11": {
+    "instr": "  %arrayidx2 = getelementptr inbounds nuw i8, ptr %m, i32 %i.0, !dbg !147",
+    "type": "GetElementPtrInst"
+  },
+  "12": {
+    "instr": "  %3 = load i8, ptr %arrayidx2, align 1, !dbg !147",
+    "type": "LoadInst"
+  },
+  "13": {
+    "instr": "  %4 = lshr i8 %3, 4, !dbg !148",
+    "type": "BinOp"
+  },
+  "14": {
+    "instr": "  store i8 %4, ptr %incdec.ptr, align 1, !dbg !149",
+    "type": "StoreInst"
+  },
+  "15": {
+    "instr": "  %incdec.ptr5 = getelementptr inbounds nuw i8, ptr %mdec.addr.0, i32 2, !dbg !150",
+    "type": "GetElementPtrInst"
+  },
+  "18": {
+    "instr": "  %mdec.addr.0.lcssa = phi ptr [ %mdec.addr.0, %for.cond ]",
+    "type": "PHINode"
+  },
+  "23": {
+    "instr": "  %arrayidx8 = getelementptr inbounds nuw i8, ptr %m, i32 %i.0.lcssa, !dbg !158",
+    "type": "GetElementPtrInst"
+  },
+  "24": {
+    "instr": "  %6 = load i8, ptr %arrayidx8, align 1, !dbg !158",
+    "type": "LoadInst"
+  },
+  "25": {
+    "instr": "  %7 = and i8 %6, 15, !dbg !160",
+    "type": "BinOp"
+  },
+  "26": {
+    "instr": "  store i8 %7, ptr %mdec.addr.0.lcssa, align 1, !dbg !161",
+    "type": "StoreInst"
+  }
+}

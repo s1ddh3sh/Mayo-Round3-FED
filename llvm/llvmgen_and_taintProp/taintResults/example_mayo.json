@@ -1,0 +1,37 @@
+{
+  "7": {
+    "instr": "  %call1 = call dereferenceable_or_null(24) ptr @calloc(i32 noundef 24, i32 noundef 1) #4, !dbg !145",
+    "type": "CallInst",
+    "callee": "calloc"
+  },
+  "9": {
+    "instr": "  %call3 = call dereferenceable_or_null(155928) ptr @calloc(i32 noundef 1, i32 noundef 155928) #4, !dbg !149",
+    "type": "CallInst",
+    "callee": "calloc"
+  },
+  "15": {
+    "instr": "  %call6 = call i32 @pqmayo_MAYO_1_ref_mayo_keypair(ptr noundef null, ptr noundef %call, ptr noundef %call1) #5, !dbg !159",
+    "type": "CallInst",
+    "callee": "pqmayo_MAYO_1_ref_mayo_keypair"
+  },
+  "16": {
+    "instr": "  %call7 = call i32 @pqmayo_MAYO_1_ref_mayo_expand_sk(ptr noundef null, ptr noundef %call1, ptr noundef %call3) #5, !dbg !161",
+    "type": "CallInst",
+    "callee": "pqmayo_MAYO_1_ref_mayo_expand_sk"
+  },
+  "19": {
+    "instr": "  %call17 = call i32 @pqmayo_MAYO_1_ref_mayo_sign(ptr noundef null, ptr noundef %call5, ptr noundef nonnull %smlen, ptr noundef nonnull %msg, i32 noundef %1, ptr noundef %call1) #5, !dbg !164",
+    "type": "CallInst",
+    "callee": "pqmayo_MAYO_1_ref_mayo_sign"
+  },
+  "38": {
+    "instr": "  call void @mayo_secure_free(ptr noundef %call1, i32 noundef 24) #5, !dbg !182",
+    "type": "CallInst",
+    "callee": "mayo_secure_free"
+  },
+  "39": {
+    "instr": "  call void @mayo_secure_free(ptr noundef %call3, i32 noundef 155928) #5, !dbg !183",
+    "type": "CallInst",
+    "callee": "mayo_secure_free"
+  }
+}

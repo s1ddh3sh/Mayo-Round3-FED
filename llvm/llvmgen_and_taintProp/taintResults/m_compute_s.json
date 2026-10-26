@@ -1,0 +1,30 @@
+{
+  "0": {
+    "instr": "  %Ox = alloca [80 x i8], align 1",
+    "type": "AllocaInst"
+  },
+  "6": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %Vdec, i32 %mul, !dbg !161",
+    "type": "GetElementPtrInst"
+  },
+  "9": {
+    "instr": "  call fastcc void @mat_mul(ptr noundef %O, ptr noundef %add.ptr2, ptr noundef nonnull %Ox, i32 noundef 8, i32 noundef 80, i32 noundef 1) #4, !dbg !166",
+    "type": "CallInst",
+    "callee": "mat_mul"
+  },
+  "12": {
+    "instr": "  call fastcc void @mat_add(ptr noundef %add.ptr, ptr noundef nonnull %Ox, ptr noundef %add.ptr5, i32 noundef 80, i32 noundef 1) #4, !dbg !169",
+    "type": "CallInst",
+    "callee": "mat_add"
+  },
+  "18": {
+    "instr": "  %call = call ptr @memcpy(ptr noundef nonnull %add.ptr8, ptr noundef nonnull %add.ptr10, i32 noundef 8) #5, !dbg !175",
+    "type": "CallInst",
+    "callee": "memcpy"
+  },
+  "21": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %Ox, i32 noundef 80) #4, !dbg !181",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  }
+}

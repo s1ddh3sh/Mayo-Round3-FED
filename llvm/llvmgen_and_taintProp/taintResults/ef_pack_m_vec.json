@@ -1,0 +1,50 @@
+{
+  "5": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i8, ptr %in, i32 %i.0, !dbg !145",
+    "type": "GetElementPtrInst"
+  },
+  "6": {
+    "instr": "  %0 = load i8, ptr %arrayidx, align 1, !dbg !145",
+    "type": "LoadInst"
+  },
+  "8": {
+    "instr": "  %arrayidx3 = getelementptr inbounds nuw i8, ptr %in, i32 %add2, !dbg !148",
+    "type": "GetElementPtrInst"
+  },
+  "9": {
+    "instr": "  %1 = load i8, ptr %arrayidx3, align 1, !dbg !148",
+    "type": "LoadInst"
+  },
+  "10": {
+    "instr": "  %shl5 = shl i8 %1, 4, !dbg !149",
+    "type": "BinOp"
+  },
+  "11": {
+    "instr": "  %or = or i8 %shl5, %0, !dbg !150",
+    "type": "BinOp"
+  },
+  "13": {
+    "instr": "  %arrayidx7 = getelementptr inbounds nuw i8, ptr %out, i32 %div, !dbg !152",
+    "type": "GetElementPtrInst"
+  },
+  "14": {
+    "instr": "  store i8 %or, ptr %arrayidx7, align 1, !dbg !153",
+    "type": "StoreInst"
+  },
+  "21": {
+    "instr": "  %arrayidx12 = getelementptr inbounds nuw i8, ptr %in, i32 %i.0.lcssa, !dbg !161",
+    "type": "GetElementPtrInst"
+  },
+  "22": {
+    "instr": "  %3 = load i8, ptr %arrayidx12, align 1, !dbg !161",
+    "type": "LoadInst"
+  },
+  "24": {
+    "instr": "  %arrayidx17 = getelementptr inbounds nuw i8, ptr %out, i32 %div16, !dbg !164",
+    "type": "GetElementPtrInst"
+  },
+  "25": {
+    "instr": "  store i8 %3, ptr %arrayidx17, align 1, !dbg !165",
+    "type": "StoreInst"
+  }
+}

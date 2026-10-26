@@ -1,0 +1,222 @@
+{
+  "4": {
+    "instr": "  call void @mayo_memset(ptr %packed_A, i8 0, i32 3840), !dbg !147",
+    "type": "CallInst",
+    "callee": "mayo_memset"
+  },
+  "19": {
+    "instr": "  %add.ptr = getelementptr inbounds i8, ptr %A, i32 %mul, !dbg !163",
+    "type": "GetElementPtrInst"
+  },
+  "22": {
+    "instr": "  call fastcc void @ef_pack_m_vec(ptr noundef %add.ptr, ptr noundef nonnull %add.ptr2, i32 noundef %ncols) #4, !dbg !166",
+    "type": "CallInst",
+    "callee": "ef_pack_m_vec"
+  },
+  "26": {
+    "instr": "  %pivot_row.0 = phi i32 [ %conv116, %for.inc117 ], [ 0, %for.cond3.preheader ], !dbg !133",
+    "type": "PHINode"
+  },
+  "44": {
+    "instr": "  store i64 0, ptr %arrayidx, align 8, !dbg !198",
+    "type": "StoreInst"
+  },
+  "46": {
+    "instr": "  store i64 0, ptr %arrayidx21, align 8, !dbg !200",
+    "type": "StoreInst"
+  },
+  "49": {
+    "instr": "  %pivot_is_zero.0 = phi i64 [ %not52, %for.end48 ], [ -1, %for.cond25.preheader ], !dbg !183",
+    "type": "PHINode"
+  },
+  "50": {
+    "instr": "  %pivot.0 = phi i8 [ %call50, %for.end48 ], [ 0, %for.cond25.preheader ], !dbg !183",
+    "type": "PHINode"
+  },
+  "59": {
+    "instr": "  %call = call fastcc i64 @ct_compare_64(i32 noundef %row.0, i32 noundef %pivot_row.0) #4, !dbg !212",
+    "type": "CallInst",
+    "callee": "ct_compare_64"
+  },
+  "60": {
+    "instr": "  %not = xor i64 %call, -1, !dbg !214",
+    "type": "BinOp"
+  },
+  "61": {
+    "instr": "  %call37 = call fastcc i64 @ct_64_is_greater_than(i32 noundef %row.0, i32 noundef %pivot_row.0) #4, !dbg !217",
+    "type": "CallInst",
+    "callee": "ct_64_is_greater_than"
+  },
+  "66": {
+    "instr": "  %and = and i64 %call37, %pivot_is_zero.0, !dbg !227",
+    "type": "BinOp"
+  },
+  "67": {
+    "instr": "  %or = or i64 %and, %not, !dbg !229",
+    "type": "BinOp"
+  },
+  "71": {
+    "instr": "  %6 = load i64, ptr %arrayidx43, align 8, !dbg !232",
+    "type": "LoadInst"
+  },
+  "72": {
+    "instr": "  %and44 = and i64 %or, %6, !dbg !233",
+    "type": "BinOp"
+  },
+  "74": {
+    "instr": "  %7 = load i64, ptr %arrayidx45, align 8, !dbg !235",
+    "type": "LoadInst"
+  },
+  "75": {
+    "instr": "  %xor = xor i64 %7, %and44, !dbg !235",
+    "type": "BinOp"
+  },
+  "76": {
+    "instr": "  store i64 %xor, ptr %arrayidx45, align 8, !dbg !235",
+    "type": "StoreInst"
+  },
+  "79": {
+    "instr": "  %call50 = call fastcc zeroext i8 @m_extract_element(ptr noundef nonnull %_pivot_row, i32 noundef %pivot_col.0) #4, !dbg !240",
+    "type": "CallInst",
+    "callee": "m_extract_element"
+  },
+  "80": {
+    "instr": "  %conv = zext nneg i8 %call50 to i32, !dbg !241",
+    "type": "CastInst"
+  },
+  "81": {
+    "instr": "  %call51 = call fastcc i64 @ct_compare_64(i32 noundef %conv, i32 noundef 0) #4, !dbg !242",
+    "type": "CallInst",
+    "callee": "ct_compare_64"
+  },
+  "82": {
+    "instr": "  %not52 = xor i64 %call51, -1, !dbg !243",
+    "type": "BinOp"
+  },
+  "85": {
+    "instr": "  %pivot_is_zero.0.lcssa = phi i64 [ %pivot_is_zero.0, %for.cond25 ], !dbg !183",
+    "type": "PHINode"
+  },
+  "86": {
+    "instr": "  %pivot.0.lcssa = phi i8 [ %pivot.0, %for.cond25 ], !dbg !183",
+    "type": "PHINode"
+  },
+  "87": {
+    "instr": "  %call56 = call fastcc zeroext i8 @inverse_f(i8 noundef zeroext %pivot.0.lcssa) #4, !dbg !248",
+    "type": "CallInst",
+    "callee": "inverse_f"
+  },
+  "88": {
+    "instr": "  call fastcc void @vec_mul_add_u64.22(i32 noundef %div, ptr noundef nonnull %_pivot_row, i8 noundef zeroext %call56, ptr noundef nonnull %_pivot_row2) #4, !dbg !250",
+    "type": "CallInst",
+    "callee": "vec_mul_add_u64.22"
+  },
+  "94": {
+    "instr": "  %call64 = call fastcc i64 @ct_compare_64(i32 noundef %row59.0, i32 noundef %pivot_row.0) #4, !dbg !261",
+    "type": "CallInst",
+    "callee": "ct_compare_64"
+  },
+  "95": {
+    "instr": "  %and67.demorgan = or i64 %call64, %pivot_is_zero.0.lcssa, !dbg !263",
+    "type": "BinOp"
+  },
+  "96": {
+    "instr": "  %and67 = xor i64 %and67.demorgan, -1, !dbg !263",
+    "type": "BinOp"
+  },
+  "104": {
+    "instr": "  %8 = load i64, ptr %arrayidx75, align 8, !dbg !278",
+    "type": "LoadInst"
+  },
+  "105": {
+    "instr": "  %and76 = and i64 %and67.demorgan, %8, !dbg !279",
+    "type": "BinOp"
+  },
+  "107": {
+    "instr": "  %9 = load i64, ptr %arrayidx77, align 8, !dbg !280",
+    "type": "LoadInst"
+  },
+  "108": {
+    "instr": "  %and78 = and i64 %9, %and67, !dbg !281",
+    "type": "BinOp"
+  },
+  "109": {
+    "instr": "  %add79 = add i64 %and76, %and78, !dbg !282",
+    "type": "BinOp"
+  },
+  "113": {
+    "instr": "  store i64 %add79, ptr %arrayidx82, align 8, !dbg !286",
+    "type": "StoreInst"
+  },
+  "121": {
+    "instr": "  %cmp94 = icmp sgt i32 %row89.0, %pivot_row.0, !dbg !300",
+    "type": "CmpInst"
+  },
+  "124": {
+    "instr": "  %call100 = call fastcc zeroext i8 @m_extract_element(ptr noundef nonnull %add.ptr99, i32 noundef %pivot_col.0) #4, !dbg !306",
+    "type": "CallInst",
+    "callee": "m_extract_element"
+  },
+  "125": {
+    "instr": "  %conv105 = select i1 %cmp94, i8 %call100, i8 0, !dbg !308",
+    "type": "Other"
+  },
+  "128": {
+    "instr": "  call fastcc void @vec_mul_add_u64.22(i32 noundef %div, ptr noundef nonnull %_pivot_row2, i8 noundef zeroext %conv105, ptr noundef nonnull %add.ptr108) #4, !dbg !311",
+    "type": "CallInst",
+    "callee": "vec_mul_add_u64.22"
+  },
+  "131": {
+    "instr": "  %10 = trunc i64 %pivot_is_zero.0.lcssa to i32, !dbg !316",
+    "type": "CastInst"
+  },
+  "132": {
+    "instr": "  %11 = add i32 %10, 1, !dbg !316",
+    "type": "BinOp"
+  },
+  "133": {
+    "instr": "  %conv116 = add i32 %11, %pivot_row.0, !dbg !316",
+    "type": "BinOp"
+  },
+  "141": {
+    "instr": "  call fastcc void @ef_unpack_m_vec(i32 noundef %div, ptr noundef nonnull %add.ptr127, ptr noundef nonnull %temp) #4, !dbg !329",
+    "type": "CallInst",
+    "callee": "ef_unpack_m_vec"
+  },
+  "147": {
+    "instr": "  %12 = load i8, ptr %arrayidx134, align 1, !dbg !338",
+    "type": "LoadInst"
+  },
+  "149": {
+    "instr": "  %13 = getelementptr i8, ptr %A, i32 %mul135, !dbg !341",
+    "type": "GetElementPtrInst"
+  },
+  "150": {
+    "instr": "  %arrayidx137 = getelementptr i8, ptr %13, i32 %j129.0, !dbg !341",
+    "type": "GetElementPtrInst"
+  },
+  "151": {
+    "instr": "  store i8 %12, ptr %arrayidx137, align 1, !dbg !342",
+    "type": "StoreInst"
+  },
+  "156": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %temp, i32 noundef 96) #4, !dbg !351",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  },
+  "157": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %_pivot_row, i32 noundef 48) #4, !dbg !352",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  },
+  "158": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %_pivot_row2, i32 noundef 48) #4, !dbg !353",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  },
+  "159": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %packed_A, i32 noundef 3840) #4, !dbg !354",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  }
+}

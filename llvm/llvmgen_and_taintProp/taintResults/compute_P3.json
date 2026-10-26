@@ -1,0 +1,12 @@
+{
+  "0": {
+    "instr": "  call fastcc void @P1_times_O(ptr noundef %p, ptr noundef %P1, ptr noundef %O, ptr noundef %P2) #4, !dbg !148",
+    "type": "CallInst",
+    "callee": "P1_times_O"
+  },
+  "1": {
+    "instr": "  call fastcc void @mul_add_mat_trans_x_m_mat(i32 noundef 5, ptr noundef %O, ptr noundef %P2, ptr noundef %P3, i32 noundef 80, i32 noundef 8, i32 noundef 8) #4, !dbg !149",
+    "type": "CallInst",
+    "callee": "mul_add_mat_trans_x_m_mat"
+  }
+}

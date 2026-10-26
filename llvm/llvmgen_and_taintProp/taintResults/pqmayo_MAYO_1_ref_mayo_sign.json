@@ -1,0 +1,7 @@
+{
+  "5": {
+    "instr": "  %call2 = call i32 @pqmayo_MAYO_1_ref_mayo_sign_signature(ptr noundef %p, ptr noundef %sm, ptr noundef nonnull %siglen, ptr noundef nonnull %add.ptr1, i32 noundef %mlen, ptr noundef %csk) #5, !dbg !152",
+    "type": "CallInst",
+    "callee": "pqmayo_MAYO_1_ref_mayo_sign_signature"
+  }
+}

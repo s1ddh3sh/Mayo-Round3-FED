@@ -1,0 +1,90 @@
+{
+  "2": {
+    "instr": "  call void @mayo_memset(ptr %Pv, i8 0, i32 32000), !dbg !156",
+    "type": "CallInst",
+    "callee": "mayo_memset"
+  },
+  "3": {
+    "instr": "  call void @mayo_memset(ptr %Pt, i8 0, i32 32000), !dbg !158",
+    "type": "CallInst",
+    "callee": "mayo_memset"
+  },
+  "22": {
+    "instr": "  %add.ptr = getelementptr inbounds i8, ptr %P1, i32 %add.ptr.idx, !dbg !187",
+    "type": "GetElementPtrInst"
+  },
+  "24": {
+    "instr": "  %1 = getelementptr inbounds nuw i8, ptr %Vdec, i32 %mul7, !dbg !190",
+    "type": "GetElementPtrInst"
+  },
+  "25": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i8, ptr %1, i32 %c.0, !dbg !190",
+    "type": "GetElementPtrInst"
+  },
+  "26": {
+    "instr": "  %2 = load i8, ptr %arrayidx, align 1, !dbg !190",
+    "type": "LoadInst"
+  },
+  "31": {
+    "instr": "  call fastcc void @m_vec_mul_add(i32 noundef 5, ptr noundef %add.ptr, i8 noundef zeroext %2, ptr noundef nonnull %add.ptr11) #4, !dbg !194",
+    "type": "CallInst",
+    "callee": "m_vec_mul_add"
+  },
+  "33": {
+    "instr": "  %add.ptr13 = getelementptr inbounds i8, ptr %P1, i32 %add.ptr13.idx, !dbg !195",
+    "type": "GetElementPtrInst"
+  },
+  "35": {
+    "instr": "  %3 = getelementptr inbounds nuw i8, ptr %Vdec, i32 %mul14, !dbg !197",
+    "type": "GetElementPtrInst"
+  },
+  "36": {
+    "instr": "  %arrayidx16 = getelementptr inbounds nuw i8, ptr %3, i32 %r.0, !dbg !197",
+    "type": "GetElementPtrInst"
+  },
+  "37": {
+    "instr": "  %4 = load i8, ptr %arrayidx16, align 1, !dbg !197",
+    "type": "LoadInst"
+  },
+  "42": {
+    "instr": "  call fastcc void @m_vec_mul_add(i32 noundef 5, ptr noundef %add.ptr13, i8 noundef zeroext %4, ptr noundef nonnull %add.ptr21) #4, !dbg !201",
+    "type": "CallInst",
+    "callee": "m_vec_mul_add"
+  },
+  "59": {
+    "instr": "  call fastcc void @m_vec_add(i32 noundef 5, ptr noundef nonnull %add.ptr34, ptr noundef nonnull %add.ptr38) #4, !dbg !224",
+    "type": "CallInst",
+    "callee": "m_vec_add"
+  },
+  "62": {
+    "instr": "  call fastcc void @mul_add_mat_x_m_mat(i32 noundef 5, ptr noundef %Vdec, ptr noundef nonnull %Pv, ptr noundef %VP1V, i32 noundef 10, i32 noundef 80, i32 noundef 10) #4, !dbg !229",
+    "type": "CallInst",
+    "callee": "mul_add_mat_x_m_mat"
+  },
+  "68": {
+    "instr": "  %5 = load i64, ptr %arrayidx46, align 8, !dbg !238",
+    "type": "LoadInst"
+  },
+  "70": {
+    "instr": "  %6 = load i64, ptr %arrayidx47, align 8, !dbg !241",
+    "type": "LoadInst"
+  },
+  "71": {
+    "instr": "  %xor = xor i64 %6, %5, !dbg !241",
+    "type": "BinOp"
+  },
+  "72": {
+    "instr": "  store i64 %xor, ptr %arrayidx47, align 8, !dbg !241",
+    "type": "StoreInst"
+  },
+  "75": {
+    "instr": "  call fastcc void @Wt_times_O(ptr noundef %p, ptr noundef nonnull %Pv, ptr noundef %O, ptr noundef %M) #4, !dbg !246",
+    "type": "CallInst",
+    "callee": "Wt_times_O"
+  },
+  "76": {
+    "instr": "  call fastcc void @mul_add_mat_x_m_mat(i32 noundef 5, ptr noundef %Vdec, ptr noundef %P2, ptr noundef %M, i32 noundef 10, i32 noundef 80, i32 noundef 8) #4, !dbg !247",
+    "type": "CallInst",
+    "callee": "mul_add_mat_x_m_mat"
+  }
+}

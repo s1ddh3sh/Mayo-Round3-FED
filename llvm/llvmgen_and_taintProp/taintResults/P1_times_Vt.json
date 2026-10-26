@@ -1,0 +1,7 @@
+{
+  "0": {
+    "instr": "  call fastcc void @mul_add_m_upper_triangular_mat_x_mat_trans(i32 noundef 5, ptr noundef %P1, ptr noundef %V, ptr noundef %acc, i32 noundef 80, i32 noundef 80, i32 noundef 10, i32 noundef 1) #4, !dbg !143",
+    "type": "CallInst",
+    "callee": "mul_add_m_upper_triangular_mat_x_mat_trans"
+  }
+}

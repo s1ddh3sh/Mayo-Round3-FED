@@ -1,0 +1,22 @@
+{
+  "5": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %Mtmp, i32 %add.ptr.idx, !dbg !152",
+    "type": "GetElementPtrInst"
+  },
+  "15": {
+    "instr": "  %arrayidx6 = getelementptr inbounds nuw i64, ptr %add.ptr, i32 %l.0, !dbg !168",
+    "type": "GetElementPtrInst"
+  },
+  "16": {
+    "instr": "  %2 = load i64, ptr %arrayidx6, align 8, !dbg !169",
+    "type": "LoadInst"
+  },
+  "17": {
+    "instr": "  %xor = xor i64 %2, %1, !dbg !169",
+    "type": "BinOp"
+  },
+  "18": {
+    "instr": "  store i64 %xor, ptr %arrayidx6, align 8, !dbg !169",
+    "type": "StoreInst"
+  }
+}

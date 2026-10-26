@@ -1,0 +1,7 @@
+{
+  "0": {
+    "instr": "  %call = call fastcc i32 @expand_sk_internal(ptr noundef %p, ptr noundef %csk, ptr noundef %sk, i32 noundef 1) #4, !dbg !140",
+    "type": "CallInst",
+    "callee": "expand_sk_internal"
+  }
+}

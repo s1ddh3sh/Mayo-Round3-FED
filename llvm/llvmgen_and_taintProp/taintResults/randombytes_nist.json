@@ -1,0 +1,20 @@
+{
+  "28": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %x, i32 %i.0, !dbg !166",
+    "type": "GetElementPtrInst"
+  },
+  "29": {
+    "instr": "  %call = call ptr @memcpy(ptr noundef %add.ptr, ptr noundef nonnull %block, i32 noundef 16) #5, !dbg !168",
+    "type": "CallInst",
+    "callee": "memcpy"
+  },
+  "33": {
+    "instr": "  %add.ptr11 = getelementptr inbounds nuw i8, ptr %x, i32 %i.0, !dbg !172",
+    "type": "GetElementPtrInst"
+  },
+  "34": {
+    "instr": "  %call13 = call ptr @memcpy(ptr noundef %add.ptr11, ptr noundef nonnull %block, i32 noundef %xlen.addr.0) #5, !dbg !174",
+    "type": "CallInst",
+    "callee": "memcpy"
+  }
+}

@@ -1,0 +1,5 @@
+scheme,function,fault,source,test,detected,detail
+mayo,mat_add,loadStoreSkip/mat_add_line10_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'; eph_secret: the changed output positions do not hold input 'a'
+mayo,mat_add,loadStoreSkip/mat_add_line5_mem,direct_leak_result.txt,direct_leak,yes,secret-buf: output 'c' at [0] holds input 'b' at the same index in all 16 trace(s) where the fault changed it
+mayo,mat_add,loadStoreSkip/mat_add_line7_mem,direct_leak_result.txt,direct_leak,yes,eph_secret: output 'c' at [0] holds input 'a' at the same index in all 15 trace(s) where the fault changed it
+mayo,mat_add,loopOrFuncSkip/mat_add_fnSkip_add_f_line8,direct_leak_result.txt,direct_leak,yes,eph_secret: output 'c' at [0] holds input 'a' at the same index in all 15 trace(s) where the fault changed it

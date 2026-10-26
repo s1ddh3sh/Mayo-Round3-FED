@@ -1,0 +1,19 @@
+{
+  "5": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %Mtmp, i32 %add.ptr.idx, !dbg !153",
+    "type": "GetElementPtrInst"
+  },
+  "14": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i8, ptr %O, i32 %add, !dbg !169",
+    "type": "GetElementPtrInst"
+  },
+  "15": {
+    "instr": "  %0 = load i8, ptr %arrayidx, align 1, !dbg !169",
+    "type": "LoadInst"
+  },
+  "16": {
+    "instr": "  call fastcc void @mvec_mul_add(i32 noundef 5, ptr noundef %add.ptr5, i8 noundef zeroext %0, ptr noundef %add.ptr) #4, !dbg !170",
+    "type": "CallInst",
+    "callee": "mvec_mul_add"
+  }
+}

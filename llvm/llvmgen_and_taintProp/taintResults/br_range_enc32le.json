@@ -1,0 +1,15 @@
+{
+  "3": {
+    "instr": "  %dst.addr.0 = phi ptr [ %dst, %entry ], [ %add.ptr, %while.body ]",
+    "type": "PHINode"
+  },
+  "9": {
+    "instr": "  call fastcc void @br_enc32le(ptr noundef %dst.addr.0, i32 noundef %0) #4, !dbg !143",
+    "type": "CallInst",
+    "callee": "br_enc32le"
+  },
+  "10": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %dst.addr.0, i32 4, !dbg !144",
+    "type": "GetElementPtrInst"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "49": {
+    "instr": "  call fastcc void @br_range_enc32le(ptr noundef %out, ptr noundef nonnull %w, i32 noundef 16) #5, !dbg !205",
+    "type": "CallInst",
+    "callee": "br_range_enc32le"
+  }
+}

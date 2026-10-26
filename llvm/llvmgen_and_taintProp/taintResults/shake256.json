@@ -1,0 +1,34 @@
+{
+  "3": {
+    "instr": "  call void @shake256_absorb(ptr noundef nonnull %s, ptr noundef %input, i32 noundef %inlen) #4, !dbg !151",
+    "type": "CallInst",
+    "callee": "shake256_absorb"
+  },
+  "4": {
+    "instr": "  call void @shake256_squeezeblocks(ptr noundef %output, i32 noundef %div, ptr noundef nonnull %s) #4, !dbg !152",
+    "type": "CallInst",
+    "callee": "shake256_squeezeblocks"
+  },
+  "6": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %output, i32 %mul, !dbg !154",
+    "type": "GetElementPtrInst"
+  },
+  "11": {
+    "instr": "  call void @shake256_squeezeblocks(ptr noundef nonnull %t, i32 noundef 1, ptr noundef nonnull %s) #4, !dbg !159",
+    "type": "CallInst",
+    "callee": "shake256_squeezeblocks"
+  },
+  "18": {
+    "instr": "  %arrayidx2 = getelementptr inbounds nuw i8, ptr %add.ptr, i32 %i.0, !dbg !171",
+    "type": "GetElementPtrInst"
+  },
+  "19": {
+    "instr": "  store i8 %0, ptr %arrayidx2, align 1, !dbg !172",
+    "type": "StoreInst"
+  },
+  "24": {
+    "instr": "  call void @shake256_ctx_release(ptr noundef nonnull %s) #4, !dbg !180",
+    "type": "CallInst",
+    "callee": "shake256_ctx_release"
+  }
+}

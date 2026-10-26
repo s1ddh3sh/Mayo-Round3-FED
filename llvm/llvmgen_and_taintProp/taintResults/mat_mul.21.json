@@ -1,0 +1,19 @@
+{
+  "5": {
+    "instr": "  %a.addr.0 = phi ptr [ %a, %entry ], [ %add.ptr6, %for.inc4 ]",
+    "type": "PHINode"
+  },
+  "12": {
+    "instr": "  %call = call fastcc zeroext i8 @lincomb.25(ptr noundef %a.addr.0, ptr noundef %b, i32 noundef %colrow_ab, i32 noundef 1) #4, !dbg !153",
+    "type": "CallInst",
+    "callee": "lincomb.25"
+  },
+  "13": {
+    "instr": "  store i8 %call, ptr %c.addr.1, align 1, !dbg !156",
+    "type": "StoreInst"
+  },
+  "18": {
+    "instr": "  %add.ptr6 = getelementptr inbounds i8, ptr %a.addr.0, i32 %colrow_ab, !dbg !163",
+    "type": "GetElementPtrInst"
+  }
+}

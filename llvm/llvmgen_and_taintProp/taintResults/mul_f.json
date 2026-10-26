@@ -1,0 +1,74 @@
+{
+  "1": {
+    "instr": "  %xor1 = xor i8 %a, %0, !dbg !136",
+    "type": "BinOp"
+  },
+  "2": {
+    "instr": "  %1 = trunc i8 %xor1 to i1, !dbg !137",
+    "type": "CastInst"
+  },
+  "3": {
+    "instr": "  %2 = and i8 %xor1, 2, !dbg !139",
+    "type": "BinOp"
+  },
+  "4": {
+    "instr": "  %mul9 = mul i8 %2, %b, !dbg !140",
+    "type": "BinOp"
+  },
+  "5": {
+    "instr": "  %conv10 = select i1 %1, i8 %b, i8 0, !dbg !137",
+    "type": "Other"
+  },
+  "6": {
+    "instr": "  %xor11 = xor i8 %conv10, %mul9, !dbg !141",
+    "type": "BinOp"
+  },
+  "7": {
+    "instr": "  %3 = and i8 %xor1, 4, !dbg !142",
+    "type": "BinOp"
+  },
+  "8": {
+    "instr": "  %mul16 = mul i8 %3, %b, !dbg !143",
+    "type": "BinOp"
+  },
+  "9": {
+    "instr": "  %xor18 = xor i8 %mul16, %xor11, !dbg !144",
+    "type": "BinOp"
+  },
+  "10": {
+    "instr": "  %4 = and i8 %xor1, 8, !dbg !145",
+    "type": "BinOp"
+  },
+  "11": {
+    "instr": "  %mul23 = mul i8 %4, %b, !dbg !146",
+    "type": "BinOp"
+  },
+  "12": {
+    "instr": "  %xor25 = xor i8 %mul23, %xor18, !dbg !147",
+    "type": "BinOp"
+  },
+  "13": {
+    "instr": "  %5 = lshr i8 %xor25, 4, !dbg !149",
+    "type": "BinOp"
+  },
+  "14": {
+    "instr": "  %6 = lshr i8 %xor25, 3, !dbg !150",
+    "type": "BinOp"
+  },
+  "15": {
+    "instr": "  %7 = and i8 %6, 14, !dbg !150",
+    "type": "BinOp"
+  },
+  "16": {
+    "instr": "  %8 = xor i8 %5, %7, !dbg !151",
+    "type": "BinOp"
+  },
+  "17": {
+    "instr": "  %xor25.masked = and i8 %xor25, 15, !dbg !152",
+    "type": "BinOp"
+  },
+  "18": {
+    "instr": "  %9 = xor i8 %8, %xor25.masked, !dbg !152",
+    "type": "BinOp"
+  }
+}

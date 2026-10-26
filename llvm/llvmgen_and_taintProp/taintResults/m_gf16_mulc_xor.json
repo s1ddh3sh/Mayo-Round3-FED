@@ -1,0 +1,7 @@
+{
+  "0": {
+    "instr": "  call fastcc void @m_gf16_mulc_xor_scalar(ptr noundef %dst, ptr noundef %src, i32 noundef 55, ptr noundef %t16) #4, !dbg !139",
+    "type": "CallInst",
+    "callee": "m_gf16_mulc_xor_scalar"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "1": {
+    "instr": "  call fastcc void @mul_add_mat_x_m_mat(i32 noundef 5, ptr noundef %Vdec, ptr noundef %L, ptr noundef %VL, i32 noundef 10, i32 noundef 80, i32 noundef 8) #4, !dbg !149",
+    "type": "CallInst",
+    "callee": "mul_add_mat_x_m_mat"
+  },
+  "2": {
+    "instr": "  call void @mayo_memset(ptr %Pv, i8 0, i32 32000), !dbg !154",
+    "type": "CallInst",
+    "callee": "mayo_memset"
+  },
+  "3": {
+    "instr": "  call fastcc void @P1_times_Vt(ptr noundef %p, ptr noundef %P1, ptr noundef %Vdec, ptr noundef nonnull %Pv) #4, !dbg !155",
+    "type": "CallInst",
+    "callee": "P1_times_Vt"
+  },
+  "4": {
+    "instr": "  call fastcc void @mul_add_mat_x_m_mat(i32 noundef 5, ptr noundef %Vdec, ptr noundef nonnull %Pv, ptr noundef %VP1V, i32 noundef 10, i32 noundef 80, i32 noundef 10) #4, !dbg !156",
+    "type": "CallInst",
+    "callee": "mul_add_mat_x_m_mat"
+  }
+}

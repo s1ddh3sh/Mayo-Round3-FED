@@ -1,0 +1,7 @@
+{
+  "0": {
+    "instr": "  call fastcc void @vec_mul_add_u64(i32 noundef 5, ptr noundef %src, i8 noundef zeroext %c, ptr noundef %dst) #4, !dbg !138",
+    "type": "CallInst",
+    "callee": "vec_mul_add_u64"
+  }
+}

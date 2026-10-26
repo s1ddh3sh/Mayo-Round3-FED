@@ -1,0 +1,7 @@
+{
+  "0": {
+    "instr": "  %call = call fastcc i32 @randombytes_nist(ptr noundef %random_array, i32 noundef %nbytes) #4, !dbg !134",
+    "type": "CallInst",
+    "callee": "randombytes_nist"
+  }
+}

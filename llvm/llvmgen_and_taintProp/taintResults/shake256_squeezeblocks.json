@@ -1,0 +1,11 @@
+{
+  "0": {
+    "instr": "  %0 = load ptr, ptr %state, align 4, !dbg !140",
+    "type": "LoadInst"
+  },
+  "1": {
+    "instr": "  call fastcc void @keccak_squeezeblocks(ptr noundef %output, i32 noundef %nblocks, ptr noundef %0, i32 noundef 136) #4, !dbg !141",
+    "type": "CallInst",
+    "callee": "keccak_squeezeblocks"
+  }
+}

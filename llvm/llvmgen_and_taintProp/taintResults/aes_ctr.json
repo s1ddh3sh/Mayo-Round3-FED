@@ -1,0 +1,27 @@
+{
+  "23": {
+    "instr": "  %out.addr.0 = phi ptr [ %out, %entry ], [ %add.ptr21, %while.body ]",
+    "type": "PHINode"
+  },
+  "26": {
+    "instr": "  call fastcc void @aes_ctr4x(ptr noundef %out.addr.0, ptr noundef nonnull %ivw, ptr noundef %rkeys, i32 noundef %nrounds) #4, !dbg !163",
+    "type": "CallInst",
+    "callee": "aes_ctr4x"
+  },
+  "27": {
+    "instr": "  %add.ptr21 = getelementptr inbounds nuw i8, ptr %out.addr.0, i32 64, !dbg !165",
+    "type": "GetElementPtrInst"
+  },
+  "31": {
+    "instr": "  %out.addr.0.lcssa = phi ptr [ %out.addr.0, %while.cond ]",
+    "type": "PHINode"
+  },
+  "41": {
+    "instr": "  %arrayidx27 = getelementptr inbounds nuw i8, ptr %out.addr.0.lcssa, i32 %i.0, !dbg !188",
+    "type": "GetElementPtrInst"
+  },
+  "42": {
+    "instr": "  store i8 %0, ptr %arrayidx27, align 1, !dbg !189",
+    "type": "StoreInst"
+  }
+}

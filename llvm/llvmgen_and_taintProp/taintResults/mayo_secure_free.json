@@ -1,0 +1,16 @@
+{
+  "0": {
+    "instr": "  %tobool.not = icmp eq ptr %mem, null, !dbg !132",
+    "type": "CmpInst"
+  },
+  "2": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %mem, i32 noundef %size) #4, !dbg !134",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  },
+  "3": {
+    "instr": "  call void @free(ptr noundef nonnull %mem) #5, !dbg !136",
+    "type": "CallInst",
+    "callee": "free"
+  }
+}

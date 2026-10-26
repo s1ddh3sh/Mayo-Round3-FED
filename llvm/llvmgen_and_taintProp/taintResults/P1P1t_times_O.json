@@ -1,0 +1,44 @@
+{
+  "19": {
+    "instr": "  %add.ptr = getelementptr inbounds i8, ptr %P1, i32 %add.ptr.idx, !dbg !175",
+    "type": "GetElementPtrInst"
+  },
+  "22": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i8, ptr %O, i32 %add9, !dbg !179",
+    "type": "GetElementPtrInst"
+  },
+  "23": {
+    "instr": "  %1 = load i8, ptr %arrayidx, align 1, !dbg !179",
+    "type": "LoadInst"
+  },
+  "27": {
+    "instr": "  %add.ptr13 = getelementptr inbounds nuw i8, ptr %acc, i32 %add.ptr13.idx, !dbg !182",
+    "type": "GetElementPtrInst"
+  },
+  "28": {
+    "instr": "  call fastcc void @m_vec_mul_add(i32 noundef 5, ptr noundef %add.ptr, i8 noundef zeroext %1, ptr noundef %add.ptr13) #4, !dbg !183",
+    "type": "CallInst",
+    "callee": "m_vec_mul_add"
+  },
+  "30": {
+    "instr": "  %add.ptr15 = getelementptr inbounds i8, ptr %P1, i32 %add.ptr15.idx, !dbg !184",
+    "type": "GetElementPtrInst"
+  },
+  "33": {
+    "instr": "  %arrayidx18 = getelementptr inbounds nuw i8, ptr %O, i32 %add17, !dbg !187",
+    "type": "GetElementPtrInst"
+  },
+  "34": {
+    "instr": "  %2 = load i8, ptr %arrayidx18, align 1, !dbg !187",
+    "type": "LoadInst"
+  },
+  "38": {
+    "instr": "  %add.ptr22 = getelementptr inbounds nuw i8, ptr %acc, i32 %add.ptr22.idx, !dbg !190",
+    "type": "GetElementPtrInst"
+  },
+  "39": {
+    "instr": "  call fastcc void @m_vec_mul_add(i32 noundef 5, ptr noundef %add.ptr15, i8 noundef zeroext %2, ptr noundef %add.ptr22) #4, !dbg !191",
+    "type": "CallInst",
+    "callee": "m_vec_mul_add"
+  }
+}

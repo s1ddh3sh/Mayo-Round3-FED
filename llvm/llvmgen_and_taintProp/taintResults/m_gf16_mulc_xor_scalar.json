@@ -1,0 +1,82 @@
+{
+  "16": {
+    "instr": "  %arrayidx8 = getelementptr inbounds nuw i64, ptr %src, i32 %i.0, !dbg !155",
+    "type": "GetElementPtrInst"
+  },
+  "17": {
+    "instr": "  %4 = load i64, ptr %arrayidx8, align 8, !dbg !155",
+    "type": "LoadInst"
+  },
+  "18": {
+    "instr": "  %and = and i64 %4, 1229782938247303441, !dbg !159",
+    "type": "BinOp"
+  },
+  "19": {
+    "instr": "  %mul = mul i64 %and, %conv, !dbg !160",
+    "type": "BinOp"
+  },
+  "20": {
+    "instr": "  %shr = lshr i64 %4, 1, !dbg !161",
+    "type": "BinOp"
+  },
+  "21": {
+    "instr": "  %and9 = and i64 %shr, 1229782938247303441, !dbg !162",
+    "type": "BinOp"
+  },
+  "22": {
+    "instr": "  %mul10 = mul i64 %and9, %conv2, !dbg !163",
+    "type": "BinOp"
+  },
+  "23": {
+    "instr": "  %xor = xor i64 %mul, %mul10, !dbg !164",
+    "type": "BinOp"
+  },
+  "24": {
+    "instr": "  %shr11 = lshr i64 %4, 2, !dbg !165",
+    "type": "BinOp"
+  },
+  "25": {
+    "instr": "  %and12 = and i64 %shr11, 1229782938247303441, !dbg !166",
+    "type": "BinOp"
+  },
+  "26": {
+    "instr": "  %mul13 = mul i64 %and12, %conv4, !dbg !167",
+    "type": "BinOp"
+  },
+  "27": {
+    "instr": "  %xor14 = xor i64 %xor, %mul13, !dbg !168",
+    "type": "BinOp"
+  },
+  "28": {
+    "instr": "  %shr15 = lshr i64 %4, 3, !dbg !169",
+    "type": "BinOp"
+  },
+  "29": {
+    "instr": "  %and16 = and i64 %shr15, 1229782938247303441, !dbg !170",
+    "type": "BinOp"
+  },
+  "30": {
+    "instr": "  %mul17 = mul i64 %and16, %conv6, !dbg !171",
+    "type": "BinOp"
+  },
+  "31": {
+    "instr": "  %xor18 = xor i64 %xor14, %mul17, !dbg !172",
+    "type": "BinOp"
+  },
+  "32": {
+    "instr": "  %arrayidx19 = getelementptr inbounds nuw i64, ptr %dst, i32 %i.0, !dbg !173",
+    "type": "GetElementPtrInst"
+  },
+  "33": {
+    "instr": "  %5 = load i64, ptr %arrayidx19, align 8, !dbg !174",
+    "type": "LoadInst"
+  },
+  "34": {
+    "instr": "  %xor20 = xor i64 %5, %xor18, !dbg !174",
+    "type": "BinOp"
+  },
+  "35": {
+    "instr": "  store i64 %xor20, ptr %arrayidx19, align 8, !dbg !174",
+    "type": "StoreInst"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "1": {
+    "instr": "  %ret.0 = phi i8 [ 0, %entry ], [ %call1, %for.body ], !dbg !133",
+    "type": "PHINode"
+  },
+  "6": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i8, ptr %a, i32 %i.0, !dbg !146",
+    "type": "GetElementPtrInst"
+  },
+  "7": {
+    "instr": "  %0 = load i8, ptr %arrayidx, align 1, !dbg !146",
+    "type": "LoadInst"
+  },
+  "9": {
+    "instr": "  %call = call fastcc zeroext i8 @mul_f(i8 noundef zeroext %0, i8 noundef zeroext %1) #4, !dbg !149",
+    "type": "CallInst",
+    "callee": "mul_f"
+  },
+  "10": {
+    "instr": "  %call1 = call fastcc zeroext i8 @add_f(i8 noundef zeroext %call, i8 noundef zeroext %ret.0) #4, !dbg !150",
+    "type": "CallInst",
+    "callee": "add_f"
+  },
+  "14": {
+    "instr": "  %ret.0.lcssa = phi i8 [ %ret.0, %for.cond ], !dbg !133",
+    "type": "PHINode"
+  }
+}

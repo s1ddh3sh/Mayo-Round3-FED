@@ -1,0 +1,11 @@
+{
+  "0": {
+    "instr": "  %0 = load ptr, ptr %state, align 4, !dbg !138",
+    "type": "LoadInst"
+  },
+  "1": {
+    "instr": "  call void @mayo_secure_free(ptr noundef %0, i32 noundef 200) #4, !dbg !139",
+    "type": "CallInst",
+    "callee": "mayo_secure_free"
+  }
+}

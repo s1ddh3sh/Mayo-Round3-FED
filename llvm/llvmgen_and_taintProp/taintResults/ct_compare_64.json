@@ -1,0 +1,18 @@
+{
+  "0": {
+    "instr": "  %xor = xor i32 %a, %b, !dbg !135",
+    "type": "BinOp"
+  },
+  "1": {
+    "instr": "  %0 = icmp sgt i32 %xor, 0, !dbg !136",
+    "type": "CmpInst"
+  },
+  "2": {
+    "instr": "  %shr = sext i1 %0 to i64, !dbg !136",
+    "type": "CastInst"
+  },
+  "4": {
+    "instr": "  %xor1 = xor i64 %1, %shr, !dbg !138",
+    "type": "BinOp"
+  }
+}

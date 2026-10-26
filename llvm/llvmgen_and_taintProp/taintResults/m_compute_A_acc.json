@@ -1,0 +1,74 @@
+{
+  "9": {
+    "instr": "  %0 = getelementptr i8, ptr %M, i32 %.idx, !dbg !158",
+    "type": "GetElementPtrInst"
+  },
+  "10": {
+    "instr": "  %arrayidx = getelementptr i64, ptr %0, i32 %l.0, !dbg !158",
+    "type": "GetElementPtrInst"
+  },
+  "11": {
+    "instr": "  %1 = load i64, ptr %arrayidx, align 8, !dbg !158",
+    "type": "LoadInst"
+  },
+  "13": {
+    "instr": "  %shl = shl i64 %1, %sh_prom, !dbg !162",
+    "type": "BinOp"
+  },
+  "16": {
+    "instr": "  %2 = getelementptr i8, ptr %A, i32 %.idx1, !dbg !164",
+    "type": "GetElementPtrInst"
+  },
+  "17": {
+    "instr": "  %3 = getelementptr i64, ptr %2, i32 %col, !dbg !164",
+    "type": "GetElementPtrInst"
+  },
+  "18": {
+    "instr": "  %arrayidx8 = getelementptr i64, ptr %3, i32 %c.0, !dbg !164",
+    "type": "GetElementPtrInst"
+  },
+  "19": {
+    "instr": "  %4 = load i64, ptr %arrayidx8, align 8, !dbg !165",
+    "type": "LoadInst"
+  },
+  "20": {
+    "instr": "  %xor = xor i64 %4, %shl, !dbg !165",
+    "type": "BinOp"
+  },
+  "21": {
+    "instr": "  store i64 %xor, ptr %arrayidx8, align 8, !dbg !165",
+    "type": "StoreInst"
+  },
+  "26": {
+    "instr": "  %shr = lshr i64 %1, %sh_prom10, !dbg !170",
+    "type": "BinOp"
+  },
+  "29": {
+    "instr": "  %5 = getelementptr i8, ptr %A, i32 %.idx2, !dbg !172",
+    "type": "GetElementPtrInst"
+  },
+  "30": {
+    "instr": "  %6 = getelementptr i8, ptr %5, i32 640, !dbg !172",
+    "type": "GetElementPtrInst"
+  },
+  "31": {
+    "instr": "  %7 = getelementptr i64, ptr %6, i32 %col, !dbg !172",
+    "type": "GetElementPtrInst"
+  },
+  "32": {
+    "instr": "  %arrayidx16 = getelementptr i64, ptr %7, i32 %c.0, !dbg !172",
+    "type": "GetElementPtrInst"
+  },
+  "33": {
+    "instr": "  %8 = load i64, ptr %arrayidx16, align 8, !dbg !173",
+    "type": "LoadInst"
+  },
+  "34": {
+    "instr": "  %xor17 = xor i64 %8, %shr, !dbg !173",
+    "type": "BinOp"
+  },
+  "35": {
+    "instr": "  store i64 %xor17, ptr %arrayidx16, align 8, !dbg !173",
+    "type": "StoreInst"
+  }
+}

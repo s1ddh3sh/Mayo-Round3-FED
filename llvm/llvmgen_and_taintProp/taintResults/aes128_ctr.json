@@ -1,0 +1,7 @@
+{
+  "1": {
+    "instr": "  call fastcc void @aes_ctr(ptr noundef %out, i32 noundef %outlen, ptr noundef %iv, ptr noundef %0, i32 noundef 10) #4, !dbg !143",
+    "type": "CallInst",
+    "callee": "aes_ctr"
+  }
+}

@@ -1,0 +1,290 @@
+{
+    "EF": {
+        "secret-buf": "A",
+        "fixed-scalars": "nrows,ncols",
+        "output": "A"
+    },
+    "P1P1t_times_O": {
+        "secret-buf": "O",
+        "output": "acc"
+    },
+    "P1_times_O": {
+        "secret-buf": "O",
+        "output": "acc"
+    },
+    "P1_times_Vt": {
+        "secret-buf": "V",
+        "output": "acc"
+    },
+    "Wt_times_O": {
+        "secret-buf": "O",
+        "output": "M"
+    },
+    "add_f": {
+        "secret-buf": "b",
+        "output": "ret"
+    },
+    "br_enc32le": {
+        "secret-buf": "dst",
+        "output": "dst"
+    },
+    "br_range_enc32le": {
+        "secret-buf": "dst",
+        "fixed-scalars": "num",
+        "output": "dst"
+    },
+    "compute_A": {
+        "secret-buf": "VtL",
+        "output": "A_out"
+    },
+    "compute_M_and_VPV": {
+        "secret-buf": "L",
+        "eph_secret": "Vdec",
+        "output": [
+            "VL",
+            "VP1V"
+        ]
+    },
+    "compute_M_and_VPV_implicit": {
+        "secret-buf": "O",
+        "eph_secret": "Vdec",
+        "output": [
+            "M",
+            "VP1V"
+        ]
+    },
+    "compute_P3": {
+        "secret-buf": "O",
+        "output": "P3"
+    },
+    "compute_rhs": {
+        "secret-buf": "vPv",
+        "output": "y"
+    },
+    "ct_64_is_greater_than": {
+        "secret-buf": "b",
+        "output": "ret"
+    },
+    "ct_compare_64": {
+        "secret-buf": "a",
+        "output": "ret"
+    },
+    "ct_compare_8": {
+        "secret-buf": "a",
+        "fixed-scalars": "b",
+        "output": "ret"
+    },
+    "decode": {
+        "secret-buf": "m",
+        "fixed-scalars": "mdeclen",
+        "output": "mdec"
+    },
+    "ef_pack_m_vec": {
+        "secret-buf": "in",
+        "fixed-scalars": "ncols",
+        "output": "out"
+    },
+    "ef_unpack_m_vec": {
+        "secret-buf": "in",
+        "fixed-scalars": "legs",
+        "output": "out"
+    },
+    "example_mayo": {
+        "secret-buf": "sk",
+        "output": "ret"
+    },
+    "expand_P1_P2": {
+        "secret-buf": "P",
+        "fixed-scalars": "keep_p2_packed",
+        "output": "P"
+    },
+    "expand_sk_internal": {
+        "secret-buf": "csk",
+        "fixed-scalars": "materialize_l",
+        "output": "sk"
+    },
+    "inverse_f": {
+        "secret-buf": "a",
+        "output": "ret"
+    },
+    "keccak_absorb": {
+        "secret-buf": "m",
+        "fixed-scalars": "r,mlen",
+        "output": "s"
+    },
+    "lincomb": {
+        "secret-buf": "a",
+        "fixed-scalars": "m,n",
+        "output": "ret"
+    },
+    "load64": {
+        "secret-buf": "x",
+        "output": "ret"
+    },
+    "m_calculate_M_and_VPV": {
+        "secret-buf": "O",
+        "eph_secret": "Vdec",
+        "fixed-scalars": "use_l",
+        "output": [
+            "Mtmp",
+            "VPV"
+        ]
+    },
+    "m_compute_A_acc": {
+        "secret-buf": "M",
+        "fixed-scalars": "A_width,row0,col,o,mvl,bits",
+        "output": "A"
+    },
+    "m_compute_s": {
+        "secret-buf": "O",
+        "eph_secret": "Vdec",
+        "output": "s"
+    },
+    "m_extract_element": {
+        "secret-buf": "in",
+        "fixed-scalars": "index",
+        "output": "ret"
+    },
+    "m_gf16_mulc_xor": {
+        "secret-buf": "src",
+        "fixed-scalars": "n,coeff",
+        "output": "dst"
+    },
+    "m_gf16_mulc_xor_scalar": {
+        "secret-buf": "src",
+        "fixed-scalars": "n",
+        "output": "dst"
+    },
+    "m_lambda_o_correction": {
+        "secret-buf": "O",
+        "output": "Mtmp"
+    },
+    "m_lambda_oil": {
+        "secret-buf": "Mtmp",
+        "output": "Mtmp"
+    },
+    "m_vec_add": {
+        "secret-buf": "acc",
+        "fixed-scalars": "m_vec_limbs",
+        "output": "acc"
+    },
+    "m_vec_mul_add": {
+        "secret-buf": "in",
+        "fixed-scalars": "m_vec_limbs",
+        "output": "acc"
+    },
+    "mat_add": {
+        "secret-buf": "Ox",
+        "eph_secret": "Vdec",
+        "fixed-scalars": "m,n",
+        "output": "c"
+    },
+    "mat_mul": {
+        "secret-buf": "O",
+        "fixed-scalars": "colrow_ab,row_a,col_b",
+        "output": "c"
+    },
+    "mul_add_m_upper_triangular_mat_x_mat": {
+        "secret-buf": "mat",
+        "fixed-scalars": "m_vec_limbs,bs_mat_rows,bs_mat_cols,mat_cols,triangular",
+        "output": "acc"
+    },
+    "mul_add_m_upper_triangular_mat_x_mat_trans": {
+        "secret-buf": "mat",
+        "fixed-scalars": "m_vec_limbs,bs_mat_rows,bs_mat_cols,mat_rows,triangular",
+        "output": "acc"
+    },
+    "mul_add_mat_trans_x_m_mat": {
+        "secret-buf": "mat",
+        "fixed-scalars": "m_vec_limbs,bs_mat_cols,mat_rows,mat_cols",
+        "output": "acc"
+    },
+    "mul_add_mat_x_m_mat": {
+        "secret-buf": "mat",
+        "fixed-scalars": "m_vec_limbs,bs_mat_cols,mat_rows,mat_cols",
+        "output": "acc"
+    },
+    "mul_f": {
+        "secret-buf": "a",
+        "output": "ret"
+    },
+    "mul_table": {
+        "secret-buf": "b",
+        "output": "ret"
+    },
+    "mvec_mul_add": {
+        "secret-buf": "c",
+        "fixed-scalars": "mvl",
+        "output": "dst"
+    },
+    "pqmayo_MAYO_1_ref_mayo_expand_sk": {
+        "secret-buf": "csk",
+        "output": "sk"
+    },
+    "pqmayo_MAYO_1_ref_mayo_keypair": {
+        "secret-buf": "sk",
+        "output": [
+            "pk",
+            "sk"
+        ]
+    },
+    "pqmayo_MAYO_1_ref_mayo_keypair_compact": {
+        "secret-buf": "csk",
+        "output": [
+            "cpk",
+            "csk"
+        ]
+    },
+    "pqmayo_MAYO_1_ref_mayo_sign": {
+        "secret-buf": "csk",
+        "fixed-scalars": "mlen,smlen",
+        "output": "sm"
+    },
+    "pqmayo_MAYO_1_ref_mayo_sign_signature": {
+        "secret-buf": "csk",
+        "fixed-scalars": "mlen,siglen",
+        "output": "sig"
+    },
+    "pqmayo_MAYO_1_ref_sample_solution": {
+        "secret-buf": "A",
+        "fixed-scalars": "k,o,m,A_cols",
+        "output": "x"
+    },
+    "shake256": {
+        "secret-buf": "input",
+        "fixed-scalars": "outlen,inlen",
+        "output": "output"
+    },
+    "shake256_absorb": {
+        "secret-buf": "input",
+        "fixed-scalars": "inlen",
+        "output": "state"
+    },
+    "shake256_squeezeblocks": {
+        "secret-buf": "output",
+        "fixed-scalars": "nblocks",
+        "output": "output"
+    },
+    "sign_signature_internal": {
+        "secret-buf": "sk",
+        "fixed-scalars": "mlen,use_l,siglen",
+        "output": "sig"
+    },
+    "store64": {
+        "secret-buf": "u",
+        "output": "x"
+    },
+    "sub_f": {
+        "secret-buf": "a",
+        "output": "ret"
+    },
+    "transpose_16x16_nibbles": {
+        "secret-buf": "M",
+        "output": "M"
+    },
+    "vec_mul_add_u64": {
+        "secret-buf": "in",
+        "fixed-scalars": "legs,a",
+        "output": "acc"
+    }
+}

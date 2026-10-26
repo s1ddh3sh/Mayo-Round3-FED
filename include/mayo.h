@@ -49,15 +49,15 @@ extern const mayo_params_t MAYO_5;
 typedef struct mayo_params_t mayo_params_t;
 #endif
 
-typedef struct sk_t {
-    uint64_t p[P1_LIMBS_MAX + P2_LIMBS_MAX + MAYO_MVEC_SLACK];
-    uint8_t O[V_MAX*O_MAX];
-    uint8_t sk_seed[SK_SEED_BYTES_MAX]; // seed_sk, needed for salt derivation in Sign(esk)
-} sk_t;
+// Expanded secret key, laid out as P (P1 || P2/L) | O | sk_seed.
+// sk_seed is kept so Sign(esk) can derive the salt.
+#define SK_P_LIMBS (P1_LIMBS_MAX + P2_LIMBS_MAX + MAYO_MVEC_SLACK)
+typedef uint64_t sk_t[SK_P_LIMBS + (V_MAX*O_MAX + SK_SEED_BYTES_MAX + 7)/8];
+#define SK_P(sk) ((uint64_t*)(sk))
+#define SK_O(sk) ((uint8_t*)((uint64_t*)(sk) + SK_P_LIMBS))
+#define SK_SEED(sk) (SK_O(sk) + V_MAX*O_MAX)
 
-typedef struct pk_t {
-    uint64_t p[P1_LIMBS_MAX + P2_LIMBS_MAX + P3_LIMBS_MAX + MAYO_MVEC_SLACK];
-} pk_t;
+typedef uint64_t pk_t[P1_LIMBS_MAX + P2_LIMBS_MAX + P3_LIMBS_MAX + MAYO_MVEC_SLACK];
 
 /**
  * Status codes
@@ -117,7 +117,7 @@ int mayo_sign_signature(const mayo_params_t *p, unsigned char *sig,
 #define mayo_sign_signature_esk MAYO_NAMESPACE(mayo_sign_signature_esk)
 int mayo_sign_signature_esk(const mayo_params_t *p, unsigned char *sig,
               size_t *siglen, const unsigned char *m,
-              size_t mlen, const sk_t *esk);
+              size_t mlen, const sk_t esk);
 
 /**
  * MAYO signature generation from an expanded secret key (signed message output).
@@ -136,7 +136,7 @@ int mayo_sign_signature_esk(const mayo_params_t *p, unsigned char *sig,
 #define mayo_sign_esk MAYO_NAMESPACE(mayo_sign_esk)
 int mayo_sign_esk(const mayo_params_t *p, unsigned char *sm,
                   size_t *smlen, const unsigned char *m,
-                  size_t mlen, const sk_t *esk);
+                  size_t mlen, const sk_t esk);
 
 /**
  * MAYO signature generation.
@@ -224,7 +224,7 @@ int mayo_expand_pk(const mayo_params_t *p, const unsigned char *cpk,
  */
 #define mayo_expand_sk MAYO_NAMESPACE(mayo_expand_sk)
 int mayo_expand_sk(const mayo_params_t *p, const unsigned char *csk,
-                   sk_t *esk);
+                   sk_t esk);
 
 /**
  * Mayo verify signature.

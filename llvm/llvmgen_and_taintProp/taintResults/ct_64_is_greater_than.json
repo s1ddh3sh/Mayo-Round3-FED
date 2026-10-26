@@ -1,0 +1,14 @@
+{
+  "0": {
+    "instr": "  %0 = icmp slt i32 %b, %a, !dbg !136",
+    "type": "CmpInst"
+  },
+  "1": {
+    "instr": "  %shr = sext i1 %0 to i64, !dbg !136",
+    "type": "CastInst"
+  },
+  "3": {
+    "instr": "  %xor = xor i64 %1, %shr, !dbg !138",
+    "type": "BinOp"
+  }
+}

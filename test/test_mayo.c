@@ -107,31 +107,31 @@ static int test_mayo(const mayo_params_t *p) {
         unsigned char sm2[SIG_BYTES_MAX + 32] = {0};
         unsigned char mout[32] = {0};
         size_t sm2len = 0, ml2 = 32;
-        res = mayo_expand_sk(p, sk, &esk);
+        res = mayo_expand_sk(p, sk, esk);
         if (res != MAYO_OK) {
             res = -1; printf("expand_sk failed!\n"); goto err;
         }
-        res = mayo_expand_pk(p, pk, epk.p);
+        res = mayo_expand_pk(p, pk, epk);
         if (res != MAYO_OK) {
             res = -1; printf("expand_pk failed!\n"); goto err;
         }
         for (int j = 0; j < 3; j++) {
             msg[0] = (unsigned char)(j + 1);
-            res = mayo_sign_esk(p, sm2, &sm2len, msg, 32, &esk);
+            res = mayo_sign_esk(p, sm2, &sm2len, msg, 32, esk);
             if (res != MAYO_OK) {
                 res = -1; printf("sign_esk failed!\n"); goto err;
             }
 #ifdef ENABLE_CT_TESTING
             VALGRIND_MAKE_MEM_DEFINED(sm2, sm2len); // signature is public
 #endif
-            res = mayo_open_epk(p, mout, &ml2, sm2, sm2len, epk.p);
+            res = mayo_open_epk(p, mout, &ml2, sm2, sm2len, epk);
             if (res != MAYO_OK) {
                 res = -1; printf("esk signature %d did not open with epk!\n", j); goto err;
             }
             if (ml2 != 32 || memcmp(mout, msg, 32) != 0) {
                 res = -1; printf("open_epk recovered the wrong message!\n"); goto err;
             }
-            res = mayo_verify_epk(p, msg, 32, sm2, epk.p);
+            res = mayo_verify_epk(p, msg, 32, sm2, epk);
             if (res != MAYO_OK) {
                 res = -1; printf("esk signature %d did not verify with epk!\n", j); goto err;
             }
@@ -141,7 +141,7 @@ static int test_mayo(const mayo_params_t *p) {
             }
         }
         // a signature made with the compact key must open with the expanded one
-        res = mayo_open_epk(p, mout, &ml2, sig, smlen, epk.p);
+        res = mayo_open_epk(p, mout, &ml2, sig, smlen, epk);
         if (res != MAYO_OK) {
             res = -1; printf("mayo_sign signature did not open with epk!\n"); goto err;
         }
@@ -149,8 +149,8 @@ static int test_mayo(const mayo_params_t *p) {
         // and a corrupted signature must be rejected by both expanded entry points
         // (msg still matches sm2 here, so only the corruption can cause a reject)
         sm2[0] = ~sm2[0];
-        if (mayo_verify_epk(p, msg, 32, sm2, epk.p) != MAYO_ERR ||
-            mayo_open_epk(p, mout, &ml2, sm2, sm2len, epk.p) != MAYO_ERR) {
+        if (mayo_verify_epk(p, msg, 32, sm2, epk) != MAYO_ERR ||
+            mayo_open_epk(p, mout, &ml2, sm2, sm2len, epk) != MAYO_ERR) {
             res = -1; printf("epk accepted a corrupted signature!\n"); goto err;
         }
         msg[0] = 0;

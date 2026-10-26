@@ -1,0 +1,12 @@
+{
+  "1": {
+    "instr": "  %call = call ptr %0(ptr noundef %mem, i32 noundef 0, i32 noundef %size) #4, !dbg !131",
+    "type": "CallInst",
+    "callee": null
+  },
+  "2": {
+    "instr": "  call void asm sideeffect \"\", \"r,~{memory}\"(ptr %mem) #5, !dbg !132, !srcloc !133",
+    "type": "CallInst",
+    "callee": null
+  }
+}

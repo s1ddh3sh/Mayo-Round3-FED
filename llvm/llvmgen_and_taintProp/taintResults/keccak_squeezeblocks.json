@@ -1,0 +1,32 @@
+{
+  "3": {
+    "instr": "  %h.addr.0 = phi ptr [ %h, %entry ], [ %add.ptr2, %for.end ]",
+    "type": "PHINode"
+  },
+  "6": {
+    "instr": "  call fastcc void @KeccakF1600_StatePermute(ptr noundef %s) #4, !dbg !138",
+    "type": "CallInst",
+    "callee": "KeccakF1600_StatePermute"
+  },
+  "12": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %h.addr.0, i32 %mul, !dbg !150",
+    "type": "GetElementPtrInst"
+  },
+  "13": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i64, ptr %s, i32 %i.0, !dbg !151",
+    "type": "GetElementPtrInst"
+  },
+  "14": {
+    "instr": "  %1 = load i64, ptr %arrayidx, align 8, !dbg !151",
+    "type": "LoadInst"
+  },
+  "15": {
+    "instr": "  call fastcc void @store64(ptr noundef %add.ptr, i64 noundef %1) #4, !dbg !152",
+    "type": "CallInst",
+    "callee": "store64"
+  },
+  "18": {
+    "instr": "  %add.ptr2 = getelementptr inbounds nuw i8, ptr %h.addr.0, i32 %r, !dbg !158",
+    "type": "GetElementPtrInst"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "0": {
+    "instr": "  %sk = alloca [19491 x i64], align 32",
+    "type": "AllocaInst"
+  },
+  "1": {
+    "instr": "  %call = call fastcc i32 @expand_sk_internal(ptr noundef %p, ptr noundef %csk, ptr noundef nonnull %sk, i32 noundef 0) #4, !dbg !152",
+    "type": "CallInst",
+    "callee": "expand_sk_internal"
+  },
+  "2": {
+    "instr": "  %call2 = call fastcc i32 @sign_signature_internal(ptr noundef %p, ptr noundef %sig, ptr noundef %siglen, ptr noundef %m, i32 noundef %mlen, ptr noundef nonnull %sk, i32 noundef 0) #4, !dbg !154",
+    "type": "CallInst",
+    "callee": "sign_signature_internal"
+  },
+  "3": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %sk, i32 noundef 155928) #4, !dbg !157",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  }
+}

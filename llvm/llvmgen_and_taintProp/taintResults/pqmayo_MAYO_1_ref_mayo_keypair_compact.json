@@ -1,0 +1,46 @@
+{
+  "3": {
+    "instr": "  %O = alloca [640 x i8], align 1",
+    "type": "AllocaInst"
+  },
+  "7": {
+    "instr": "  %call = call i32 @randombytes(ptr noundef %csk, i32 noundef 24) #4, !dbg !175",
+    "type": "CallInst",
+    "callee": "randombytes"
+  },
+  "8": {
+    "instr": "  call void @shake256(ptr noundef nonnull %S, i32 noundef 336, ptr noundef %csk, i32 noundef 24) #4, !dbg !177",
+    "type": "CallInst",
+    "callee": "shake256"
+  },
+  "10": {
+    "instr": "  call fastcc void @decode(ptr noundef nonnull %add.ptr6, ptr noundef nonnull %O, i32 noundef 640) #4, !dbg !180",
+    "type": "CallInst",
+    "callee": "decode"
+  },
+  "11": {
+    "instr": "  call fastcc void @expand_P1_P2(ptr noundef %p, ptr noundef nonnull %P, ptr noundef nonnull %S, i32 noundef 0) #4, !dbg !181",
+    "type": "CallInst",
+    "callee": "expand_P1_P2"
+  },
+  "13": {
+    "instr": "  %call11 = call ptr @memset(ptr noundef nonnull %add.ptr10, i32 noundef 0, i32 noundef 64) #5, !dbg !182",
+    "type": "CallInst",
+    "callee": "memset"
+  },
+  "14": {
+    "instr": "  call fastcc void @compute_P3(ptr noundef %p, ptr noundef nonnull %P, ptr noundef nonnull %add.ptr, ptr noundef nonnull %O, ptr noundef nonnull %P3) #4, !dbg !183",
+    "type": "CallInst",
+    "callee": "compute_P3"
+  },
+  "22": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %O, i32 noundef 640) #4, !dbg !197",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  },
+  "23": {
+    "instr": "  call void @mayo_secure_clear(ptr noundef nonnull %add.ptr, i32 noundef 25600) #4, !dbg !198",
+    "type": "CallInst",
+    "callee": "mayo_secure_clear"
+  }
+}

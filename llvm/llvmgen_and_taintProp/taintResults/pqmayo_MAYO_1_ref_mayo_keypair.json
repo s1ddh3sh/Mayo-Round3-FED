@@ -1,0 +1,7 @@
+{
+  "0": {
+    "instr": "  %call = call i32 @pqmayo_MAYO_1_ref_mayo_keypair_compact(ptr noundef %p, ptr noundef %pk, ptr noundef %sk) #4, !dbg !140",
+    "type": "CallInst",
+    "callee": "pqmayo_MAYO_1_ref_mayo_keypair_compact"
+  }
+}

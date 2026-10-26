@@ -1,0 +1,14 @@
+{
+  "0": {
+    "instr": "  %0 = icmp ne i8 %a, 0, !dbg !135",
+    "type": "CmpInst"
+  },
+  "1": {
+    "instr": "  %conv3 = sext i1 %0 to i8, !dbg !136",
+    "type": "CastInst"
+  },
+  "3": {
+    "instr": "  %xor5 = xor i8 %1, %conv3, !dbg !138",
+    "type": "BinOp"
+  }
+}

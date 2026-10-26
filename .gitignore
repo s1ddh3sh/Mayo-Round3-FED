@@ -31,3 +31,4 @@ __pycache__
 .pytest_cache
 .cache
 .CMake/a.out
+test_mayo/

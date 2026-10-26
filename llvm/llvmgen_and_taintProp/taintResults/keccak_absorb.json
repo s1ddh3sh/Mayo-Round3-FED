@@ -1,0 +1,105 @@
+{
+  "7": {
+    "instr": "  %arrayidx = getelementptr inbounds nuw i64, ptr %s, i32 %i.0, !dbg !152",
+    "type": "GetElementPtrInst"
+  },
+  "8": {
+    "instr": "  store i64 0, ptr %arrayidx, align 8, !dbg !154",
+    "type": "StoreInst"
+  },
+  "11": {
+    "instr": "  %m.addr.0 = phi ptr [ %add.ptr9, %for.end8 ], [ %m, %while.cond.preheader ]",
+    "type": "PHINode"
+  },
+  "17": {
+    "instr": "  %m.addr.0.lcssa = phi ptr [ %m.addr.0, %while.cond ]",
+    "type": "PHINode"
+  },
+  "23": {
+    "instr": "  %add.ptr = getelementptr inbounds nuw i8, ptr %m.addr.0, i32 %mul, !dbg !171",
+    "type": "GetElementPtrInst"
+  },
+  "24": {
+    "instr": "  %call = call fastcc i64 @load64(ptr noundef %add.ptr) #4, !dbg !172",
+    "type": "CallInst",
+    "callee": "load64"
+  },
+  "25": {
+    "instr": "  %arrayidx5 = getelementptr inbounds nuw i64, ptr %s, i32 %i.1, !dbg !173",
+    "type": "GetElementPtrInst"
+  },
+  "26": {
+    "instr": "  %1 = load i64, ptr %arrayidx5, align 8, !dbg !174",
+    "type": "LoadInst"
+  },
+  "27": {
+    "instr": "  %xor = xor i64 %1, %call, !dbg !174",
+    "type": "BinOp"
+  },
+  "28": {
+    "instr": "  store i64 %xor, ptr %arrayidx5, align 8, !dbg !174",
+    "type": "StoreInst"
+  },
+  "31": {
+    "instr": "  call fastcc void @KeccakF1600_StatePermute(ptr noundef %s) #4, !dbg !179",
+    "type": "CallInst",
+    "callee": "KeccakF1600_StatePermute"
+  },
+  "33": {
+    "instr": "  %add.ptr9 = getelementptr inbounds nuw i8, ptr %m.addr.0, i32 %r, !dbg !181",
+    "type": "GetElementPtrInst"
+  },
+  "40": {
+    "instr": "  store i8 0, ptr %arrayidx13, align 1, !dbg !191",
+    "type": "StoreInst"
+  },
+  "46": {
+    "instr": "  %arrayidx20 = getelementptr inbounds nuw i8, ptr %m.addr.0.lcssa, i32 %i.3, !dbg !199",
+    "type": "GetElementPtrInst"
+  },
+  "47": {
+    "instr": "  %2 = load i8, ptr %arrayidx20, align 1, !dbg !199",
+    "type": "LoadInst"
+  },
+  "49": {
+    "instr": "  store i8 %2, ptr %arrayidx21, align 1, !dbg !202",
+    "type": "StoreInst"
+  },
+  "54": {
+    "instr": "  store i8 %p, ptr %arrayidx25, align 1, !dbg !208",
+    "type": "StoreInst"
+  },
+  "57": {
+    "instr": "  %3 = load i8, ptr %arrayidx27, align 1, !dbg !211",
+    "type": "LoadInst"
+  },
+  "58": {
+    "instr": "  %4 = or i8 %3, -128, !dbg !211",
+    "type": "BinOp"
+  },
+  "59": {
+    "instr": "  store i8 %4, ptr %arrayidx27, align 1, !dbg !211",
+    "type": "StoreInst"
+  },
+  "66": {
+    "instr": "  %call36 = call fastcc i64 @load64(ptr noundef nonnull %add.ptr35) #4, !dbg !221",
+    "type": "CallInst",
+    "callee": "load64"
+  },
+  "67": {
+    "instr": "  %arrayidx37 = getelementptr inbounds nuw i64, ptr %s, i32 %i.4, !dbg !222",
+    "type": "GetElementPtrInst"
+  },
+  "68": {
+    "instr": "  %5 = load i64, ptr %arrayidx37, align 8, !dbg !223",
+    "type": "LoadInst"
+  },
+  "69": {
+    "instr": "  %xor38 = xor i64 %5, %call36, !dbg !223",
+    "type": "BinOp"
+  },
+  "70": {
+    "instr": "  store i64 %xor38, ptr %arrayidx37, align 8, !dbg !223",
+    "type": "StoreInst"
+  }
+}

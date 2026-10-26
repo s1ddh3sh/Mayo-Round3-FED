@@ -1,0 +1,95 @@
+{
+  "0": {
+    "instr": "  %call = call fastcc i32 @mul_table(i8 noundef zeroext %a) #4, !dbg !139",
+    "type": "CallInst",
+    "callee": "mul_table"
+  },
+  "8": {
+    "instr": "  %and1 = and i32 %call, 255, !dbg !153",
+    "type": "BinOp"
+  },
+  "9": {
+    "instr": "  %conv = zext nneg i32 %and1 to i64, !dbg !154",
+    "type": "CastInst"
+  },
+  "10": {
+    "instr": "  %mul = mul i64 %and, %conv, !dbg !155",
+    "type": "BinOp"
+  },
+  "13": {
+    "instr": "  %shr4 = lshr i32 %call, 8, !dbg !158",
+    "type": "BinOp"
+  },
+  "14": {
+    "instr": "  %and5 = and i32 %shr4, 15, !dbg !159",
+    "type": "BinOp"
+  },
+  "15": {
+    "instr": "  %conv6 = zext nneg i32 %and5 to i64, !dbg !160",
+    "type": "CastInst"
+  },
+  "16": {
+    "instr": "  %mul7 = mul nuw i64 %and3, %conv6, !dbg !161",
+    "type": "BinOp"
+  },
+  "17": {
+    "instr": "  %xor = xor i64 %mul, %mul7, !dbg !162",
+    "type": "BinOp"
+  },
+  "22": {
+    "instr": "  %shr11 = lshr i32 %call, 16, !dbg !166",
+    "type": "BinOp"
+  },
+  "23": {
+    "instr": "  %and12 = and i32 %shr11, 15, !dbg !167",
+    "type": "BinOp"
+  },
+  "24": {
+    "instr": "  %conv13 = zext nneg i32 %and12 to i64, !dbg !168",
+    "type": "CastInst"
+  },
+  "25": {
+    "instr": "  %mul14 = mul nuw i64 %and10, %conv13, !dbg !169",
+    "type": "BinOp"
+  },
+  "26": {
+    "instr": "  %xor15 = xor i64 %xor, %mul14, !dbg !170",
+    "type": "BinOp"
+  },
+  "31": {
+    "instr": "  %shr19 = lshr i32 %call, 24, !dbg !174",
+    "type": "BinOp"
+  },
+  "32": {
+    "instr": "  %and20 = and i32 %shr19, 15, !dbg !175",
+    "type": "BinOp"
+  },
+  "33": {
+    "instr": "  %conv21 = zext nneg i32 %and20 to i64, !dbg !176",
+    "type": "CastInst"
+  },
+  "34": {
+    "instr": "  %mul22 = mul nuw i64 %and18, %conv21, !dbg !177",
+    "type": "BinOp"
+  },
+  "35": {
+    "instr": "  %xor23 = xor i64 %xor15, %mul22, !dbg !178",
+    "type": "BinOp"
+  },
+  "36": {
+    "instr": "  %arrayidx24 = getelementptr inbounds nuw i64, ptr %acc, i32 %i.0, !dbg !179",
+    "type": "GetElementPtrInst"
+  },
+  "37": {
+    "instr": "  %3 = load i64, ptr %arrayidx24, align 8, !dbg !180",
+    "type": "LoadInst"
+  },
+  "38": {
+    "instr": "  %xor25 = xor i64 %3, %xor23, !dbg !180",
+    "type": "BinOp"
+  },
+  "39": {
+    "instr": "  store i64 %xor25, ptr %arrayidx24, align 8, !dbg !180",
+    "type": "StoreInst"
+  }
+}

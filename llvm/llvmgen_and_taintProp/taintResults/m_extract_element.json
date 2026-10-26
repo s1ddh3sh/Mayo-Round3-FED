@@ -1,0 +1,22 @@
+{
+  "2": {
+    "instr": "  %arrayidx = getelementptr inbounds i64, ptr %in, i32 %div, !dbg !141",
+    "type": "GetElementPtrInst"
+  },
+  "3": {
+    "instr": "  %0 = load i64, ptr %arrayidx, align 8, !dbg !141",
+    "type": "LoadInst"
+  },
+  "6": {
+    "instr": "  %shr = lshr i64 %0, %sh_prom, !dbg !143",
+    "type": "BinOp"
+  },
+  "7": {
+    "instr": "  %1 = trunc i64 %shr to i8, !dbg !144",
+    "type": "CastInst"
+  },
+  "8": {
+    "instr": "  %conv = and i8 %1, 15, !dbg !144",
+    "type": "BinOp"
+  }
+}

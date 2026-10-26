@@ -1,0 +1,27 @@
+{
+  "0": {
+    "instr": "  %call = call fastcc zeroext i8 @mul_f.24(i8 noundef zeroext %a, i8 noundef zeroext %a) #4, !dbg !134",
+    "type": "CallInst",
+    "callee": "mul_f.24"
+  },
+  "1": {
+    "instr": "  %call1 = call fastcc zeroext i8 @mul_f.24(i8 noundef zeroext %call, i8 noundef zeroext %call) #4, !dbg !136",
+    "type": "CallInst",
+    "callee": "mul_f.24"
+  },
+  "2": {
+    "instr": "  %call2 = call fastcc zeroext i8 @mul_f.24(i8 noundef zeroext %call1, i8 noundef zeroext %call1) #4, !dbg !138",
+    "type": "CallInst",
+    "callee": "mul_f.24"
+  },
+  "3": {
+    "instr": "  %call3 = call fastcc zeroext i8 @mul_f.24(i8 noundef zeroext %call, i8 noundef zeroext %call1) #4, !dbg !140",
+    "type": "CallInst",
+    "callee": "mul_f.24"
+  },
+  "4": {
+    "instr": "  %call4 = call fastcc zeroext i8 @mul_f.24(i8 noundef zeroext %call2, i8 noundef zeroext %call3) #4, !dbg !142",
+    "type": "CallInst",
+    "callee": "mul_f.24"
+  }
+}

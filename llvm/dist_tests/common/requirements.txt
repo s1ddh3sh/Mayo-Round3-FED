@@ -1,0 +1,4 @@
+unicorn>=2.0.0
+capstone>=5.0.0
+pyelftools>=0.29
+numpy>=1.24
