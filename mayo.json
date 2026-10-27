@@ -166,7 +166,7 @@
         "output": "c"
     },
     "mat_mul": {
-        "secret-buf": "O",
+        "secret-buf": "a",
         "fixed-scalars": "colrow_ab,row_a,col_b",
         "output": "c"
     },

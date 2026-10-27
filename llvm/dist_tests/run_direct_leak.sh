@@ -15,8 +15,9 @@
 #   --traces N   existing trace pairs to use per faulty ELF, taken round-robin
 #                over its collected directories (0 = all). Default 16.
 #   --csv PATH   summary CSV, one row per faulty ELF, in generic_tests_plot.py's
-#                schema. Default ../direct_leak_report.csv (the MAYO-C root,
-#                where generic_tests_plot.py reads it). Not overwritten: the
+#                schema. Default <MAYO-C root>/direct_leak_report.csv, from
+#                any cwd (where generic_tests_plot.py reads it); an explicit
+#                relative PATH is relative to your cwd. Not overwritten: the
 #                rows of each function tested are replaced in place (or
 #                appended if new); other functions' rows are kept.
 #   --elf-timeout SECS   per faulty ELF: no verdict within SECS -> recorded as
@@ -38,7 +39,7 @@ set -uo pipefail
 SCHEME="mayo"
 FUNC=""
 TRACES=16
-CSV="../direct_leak_report.csv"
+CSV=""   # default: <MAYO-C root>/direct_leak_report.csv, set below
 ELF_TIMEOUT=120
 FUNC_TIMEOUT=1800
 
@@ -68,8 +69,14 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TEST_PY="${SCRIPT_DIR}/direct_leak.py"
 MAYO_BUILD="${SCRIPT_DIR}/mayo/mayo_build.sh"
 CONFIG_JSON="../mayo.json"
-# A relative --csv is relative to the caller's cwd, so resolve it before the cd.
-[[ "$CSV" != /* ]] && CSV="$(realpath -m "$CSV")"
+# The default lives at the MAYO-C root whatever the caller's cwd (that is
+# where generic_tests_plot.py reads it); an explicit relative --csv is
+# relative to the caller's cwd, so resolve it before the cd.
+if [[ -z "$CSV" ]]; then
+    CSV="$(cd "${SCRIPT_DIR}/../.." && pwd)/direct_leak_report.csv"
+elif [[ "$CSV" != /* ]]; then
+    CSV="$(realpath -m "$CSV")"
+fi
 cd "${SCRIPT_DIR}/.."   # llvm/
 
 # Build the function's ELFs if any are missing: every .ll under

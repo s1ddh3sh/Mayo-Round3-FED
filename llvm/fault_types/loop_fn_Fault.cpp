@@ -388,17 +388,65 @@ static CallBase *pickCallSite(Function *F,
   return chosen;
 }
 
+// Fold V to a constant: integer constants, add/sub/mul/shl/lshr/and/or of
+// foldable operands, int casts, and a load from a local whose value is the
+// nearest preceding constant store in the same block (e.g. the example's
+// `msglen = 32` feeding calloc(msglen + sig_bytes)). The backward scan gives
+// up at anything that may write the local in between (a call that is passed
+// its address, or a non-constant store).
+static std::optional<uint64_t> evalConstInt(Value *V, unsigned depth = 0) {
+  if (depth > 16)
+    return std::nullopt;
+  if (auto *CInt = dyn_cast<ConstantInt>(V))
+    return CInt->getZExtValue();
+  if (auto *C = dyn_cast<CastInst>(V)) {
+    if (C->getOpcode() == Instruction::ZExt ||
+        C->getOpcode() == Instruction::SExt ||
+        C->getOpcode() == Instruction::Trunc)
+      return evalConstInt(C->getOperand(0), depth + 1);
+    return std::nullopt;
+  }
+  if (auto *B = dyn_cast<BinaryOperator>(V)) {
+    auto a = evalConstInt(B->getOperand(0), depth + 1);
+    auto b = evalConstInt(B->getOperand(1), depth + 1);
+    if (!a || !b)
+      return std::nullopt;
+    switch (B->getOpcode()) {
+    case Instruction::Add: return *a + *b;
+    case Instruction::Sub: return *a - *b;
+    case Instruction::Mul: return *a * *b;
+    case Instruction::Shl: return *a << *b;
+    case Instruction::LShr: return *a >> *b;
+    case Instruction::And: return *a & *b;
+    case Instruction::Or: return *a | *b;
+    default: return std::nullopt;
+    }
+  }
+  if (auto *L = dyn_cast<LoadInst>(V)) {
+    auto *AI = dyn_cast<AllocaInst>(L->getPointerOperand());
+    if (!AI)
+      return std::nullopt;
+    for (Instruction *I = L->getPrevNode(); I; I = I->getPrevNode()) {
+      if (auto *S = dyn_cast<StoreInst>(I)) {
+        if (S->getPointerOperand() == AI)
+          return evalConstInt(S->getValueOperand(), depth + 1);
+      } else if (auto *CB = dyn_cast<CallBase>(I)) {
+        for (Value *Arg : CB->args())
+          if (Arg == AI)
+            return std::nullopt;
+      }
+    }
+  }
+  return std::nullopt;
+}
+
 static std::optional<uint64_t> inferAllocCallByteSize(CallInst *CI) {
   Function *Callee = CI->getCalledFunction();
   if (!Callee)
     return std::nullopt;
   StringRef Name = Callee->getName();
 
-  auto asConst = [](Value *V) -> std::optional<uint64_t> {
-    if (auto *CInt = dyn_cast<ConstantInt>(V))
-      return CInt->getZExtValue();
-    return std::nullopt;
-  };
+  auto asConst = [](Value *V) { return evalConstInt(V); };
 
   if (Name == "calloc" && CI->arg_size() == 2) {
     auto nmemb = asConst(CI->getArgOperand(0));
@@ -588,8 +636,9 @@ void createDynamicDriverFunction(Module &OriginalM, Module &ExtractedM,
 
     } else if (argTy->isIntegerTy()) {
       uint64_t initVal = 0;
-      if (root && isa<ConstantInt>(root)) {
-        initVal = cast<ConstantInt>(root)->getZExtValue();
+      if (root) {
+        if (auto v = evalConstInt(root))
+          initVal = *v;
       }
 
       // Must be a global, not a local alloca: a non-escaping local alloca

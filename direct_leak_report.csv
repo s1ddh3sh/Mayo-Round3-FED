@@ -1,5 +1,1132 @@
 scheme,function,fault,source,test,detected,detail
+mayo,EF,binOpFault/EF_line105_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line105_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line105_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line105_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line108_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line108_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line108_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line108_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line109_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line109_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line109_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line109_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line132_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line132_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line132_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line132_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line133_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line133_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line133_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line133_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line60_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line60_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line60_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line60_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line66_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line66_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line66_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line66_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line67_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line67_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line67_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line67_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line72_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line72_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line72_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line72_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line75_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line75_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line75_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line75_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line82_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line82_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line82_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line82_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line95_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line95_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line95_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line95_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line96_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line96_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line96_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,binOpFault/EF_line96_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line104_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line107_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line113_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line147_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line151_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line44_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line46_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line71_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line74_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loadStoreSkip/EF_line76_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_ct_64_is_greater_than_line61,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_ct_compare_64_line59,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_ct_compare_64_line81,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_ct_compare_64_line94,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_ef_pack_m_vec_line22,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_ef_unpack_m_vec_line141,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_inverse_f_line87,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_m_extract_element_line124,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_m_extract_element_line79,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_mayo_memset_line4,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_mayo_secure_clear_line156,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_mayo_secure_clear_line157,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_mayo_secure_clear_line158,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_mayo_secure_clear_line159,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_vec_mul_add_u64.22_line128,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,EF,loopOrFuncSkip/EF_fnSkip_vec_mul_add_u64.22_line88,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,P1P1t_times_O,loadStoreSkip/P1P1t_times_O_line23_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,P1P1t_times_O,loadStoreSkip/P1P1t_times_O_line34_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,P1P1t_times_O,loopOrFuncSkip/P1P1t_times_O_fnSkip_m_vec_mul_add_line28,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,P1P1t_times_O,loopOrFuncSkip/P1P1t_times_O_fnSkip_m_vec_mul_add_line39,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,P1_times_O,loopOrFuncSkip/P1_times_O_fnSkip_mul_add_m_upper_triangular_mat_x_mat_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,P1_times_Vt,loopOrFuncSkip/P1_times_Vt_fnSkip_mul_add_m_upper_triangular_mat_x_mat_trans_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'V'
+mayo,Wt_times_O,loadStoreSkip/Wt_times_O_line19_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,Wt_times_O,loopOrFuncSkip/Wt_times_O_fnSkip_m_vec_mul_add_line24,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,add_f,binOpFault/add_f_line0_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,add_f,binOpFault/add_f_line0_opB,direct_leak_result.txt,direct_leak,yes,secret-buf: output 'ret' at [0] holds input 'b' at the same index in all 16 trace(s) where the fault changed it
+mayo,add_f,binOpFault/add_f_line0_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,add_f,binOpFault/add_f_line0_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,br_enc32le,loadStoreSkip/br_enc32le_line13_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,br_enc32le,loadStoreSkip/br_enc32le_line1_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,br_enc32le,loadStoreSkip/br_enc32le_line5_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,br_enc32le,loadStoreSkip/br_enc32le_line9_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,br_range_enc32le,loopOrFuncSkip/br_range_enc32le_fnSkip_br_enc32le_line9,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_A,binOpFault/compute_A_line113_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,binOpFault/compute_A_line113_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,binOpFault/compute_A_line113_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,binOpFault/compute_A_line113_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loadStoreSkip/compute_A_line105_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loadStoreSkip/compute_A_line112_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loadStoreSkip/compute_A_line114_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loadStoreSkip/compute_A_line77_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loadStoreSkip/compute_A_line79_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loadStoreSkip/compute_A_line87_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_decode_line141,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_m_compute_A_acc_line25,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_m_compute_A_acc_line31,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_m_gf16_mulc_xor_line98,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_mayo_memset_line4,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_mayo_secure_clear_line119,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_mayo_secure_clear_line120,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_A,loopOrFuncSkip/compute_A_fnSkip_transpose_16x16_nibbles_line39,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'VtL'
+mayo,compute_M_and_VPV,loopOrFuncSkip/compute_M_and_VPV_fnSkip_P1_times_Vt_line3,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'L'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV,loopOrFuncSkip/compute_M_and_VPV_fnSkip_mayo_memset_line2,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,compute_M_and_VPV,loopOrFuncSkip/compute_M_and_VPV_fnSkip_mul_add_mat_x_m_mat_line1,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'L'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV,loopOrFuncSkip/compute_M_and_VPV_fnSkip_mul_add_mat_x_m_mat_line4,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'L'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,binOpFault/compute_M_and_VPV_implicit_line71_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,binOpFault/compute_M_and_VPV_implicit_line71_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,binOpFault/compute_M_and_VPV_implicit_line71_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,binOpFault/compute_M_and_VPV_implicit_line71_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loadStoreSkip/compute_M_and_VPV_implicit_line26_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loadStoreSkip/compute_M_and_VPV_implicit_line37_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loadStoreSkip/compute_M_and_VPV_implicit_line68_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loadStoreSkip/compute_M_and_VPV_implicit_line70_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loadStoreSkip/compute_M_and_VPV_implicit_line72_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_Wt_times_O_line75,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_m_vec_add_line59,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_m_vec_mul_add_line31,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_m_vec_mul_add_line42,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_mayo_memset_line2,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_mayo_memset_line3,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_mul_add_mat_x_m_mat_line62,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_M_and_VPV_implicit,loopOrFuncSkip/compute_M_and_VPV_implicit_fnSkip_mul_add_mat_x_m_mat_line76,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,compute_P3,loopOrFuncSkip/compute_P3_fnSkip_P1_times_O_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,compute_P3,loopOrFuncSkip/compute_P3_fnSkip_mul_add_mat_trans_x_m_mat_line1,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,compute_rhs,binOpFault/compute_rhs_line105_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line105_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line105_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line105_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line106_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line106_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line106_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line106_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line16_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line16_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line16_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line16_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line18_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line18_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line18_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line18_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line29_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line29_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line29_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line29_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line33_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line33_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line33_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line33_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line37_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line37_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line37_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line37_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line52_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line52_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line52_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line52_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line57_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line57_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line57_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line57_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line78_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line78_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line78_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line78_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line81_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line81_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,binOpFault/compute_rhs_line81_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line81_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line95_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line95_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line95_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line95_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line96_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line96_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line96_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,binOpFault/compute_rhs_line96_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line104_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line109_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line15_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line19_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line28_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line32_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line34_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line36_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line38_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line55_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line58_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line69_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line76_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line80_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line82_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line94_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,loadStoreSkip/compute_rhs_line98_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'vPv'
+mayo,compute_rhs,loopOrFuncSkip/compute_rhs_fnSkip_mayo_memset_line1,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,compute_rhs,loopOrFuncSkip/compute_rhs_fnSkip_mul_f_line48,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ct_64_is_greater_than,binOpFault/ct_64_is_greater_than_line3_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,ct_64_is_greater_than,binOpFault/ct_64_is_greater_than_line3_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ct_64_is_greater_than,binOpFault/ct_64_is_greater_than_line3_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,ct_64_is_greater_than,binOpFault/ct_64_is_greater_than_line3_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,ct_compare_64,binOpFault/ct_compare_64_line0_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ct_compare_64,binOpFault/ct_compare_64_line0_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ct_compare_64,binOpFault/ct_compare_64_line0_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,ct_compare_64,binOpFault/ct_compare_64_line0_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,ct_compare_64,binOpFault/ct_compare_64_line4_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,ct_compare_64,binOpFault/ct_compare_64_line4_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ct_compare_64,binOpFault/ct_compare_64_line4_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,ct_compare_64,binOpFault/ct_compare_64_line4_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,ct_compare_8,binOpFault/ct_compare_8_line3_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,ct_compare_8,binOpFault/ct_compare_8_line3_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ct_compare_8,binOpFault/ct_compare_8_line3_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,ct_compare_8,binOpFault/ct_compare_8_line3_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,decode,binOpFault/decode_line13_opA,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line13_opB,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line13_undef,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line13_zero,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line25_opA,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line25_opB,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line25_undef,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line25_zero,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line8_opA,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line8_opB,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line8_undef,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,binOpFault/decode_line8_zero,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,loadStoreSkip/decode_line10_mem,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,loadStoreSkip/decode_line12_mem,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,loadStoreSkip/decode_line14_mem,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,loadStoreSkip/decode_line24_mem,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,loadStoreSkip/decode_line26_mem,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,decode,loadStoreSkip/decode_line7_mem,direct_leak_result.txt,direct_leak,error,RunFailed: correct run for m[-1]=0 (seed=0) raised: EmulationError: emulation fault: unmapped access to 0x20400000 (size 1) at decode+0xc after 11353 insns
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line10_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line10_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line10_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line10_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line11_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line11_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line11_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,binOpFault/ef_pack_m_vec_line11_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,loadStoreSkip/ef_pack_m_vec_line14_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,loadStoreSkip/ef_pack_m_vec_line22_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,loadStoreSkip/ef_pack_m_vec_line25_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,loadStoreSkip/ef_pack_m_vec_line6_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_pack_m_vec,loadStoreSkip/ef_pack_m_vec_line9_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line14_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line14_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line14_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line14_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line8_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line8_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line8_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,binOpFault/ef_unpack_m_vec_line8_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,loadStoreSkip/ef_unpack_m_vec_line10_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,loadStoreSkip/ef_unpack_m_vec_line13_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,loadStoreSkip/ef_unpack_m_vec_line17_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,ef_unpack_m_vec,loadStoreSkip/ef_unpack_m_vec_line7_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,inverse_f,loopOrFuncSkip/inverse_f_fnSkip_mul_f.24_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,inverse_f,loopOrFuncSkip/inverse_f_fnSkip_mul_f.24_line1,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,inverse_f,loopOrFuncSkip/inverse_f_fnSkip_mul_f.24_line2,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,inverse_f,loopOrFuncSkip/inverse_f_fnSkip_mul_f.24_line3,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,inverse_f,loopOrFuncSkip/inverse_f_fnSkip_mul_f.24_line4,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,keccak_absorb,binOpFault/keccak_absorb_line27_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,binOpFault/keccak_absorb_line27_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,binOpFault/keccak_absorb_line27_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,binOpFault/keccak_absorb_line27_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,binOpFault/keccak_absorb_line58_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'm'
+mayo,keccak_absorb,binOpFault/keccak_absorb_line58_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,binOpFault/keccak_absorb_line58_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'm'
+mayo,keccak_absorb,binOpFault/keccak_absorb_line58_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'm'
+mayo,keccak_absorb,binOpFault/keccak_absorb_line69_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'm'
+mayo,keccak_absorb,binOpFault/keccak_absorb_line69_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,binOpFault/keccak_absorb_line69_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'm'
+mayo,keccak_absorb,binOpFault/keccak_absorb_line69_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'm'
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line26_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line28_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line40_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line47_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line49_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line54_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'm'
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line57_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line59_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line68_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line70_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loadStoreSkip/keccak_absorb_line8_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loopOrFuncSkip/keccak_absorb_fnSkip_KeccakF1600_StatePermute_line31,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loopOrFuncSkip/keccak_absorb_fnSkip_load64_line24,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,keccak_absorb,loopOrFuncSkip/keccak_absorb_fnSkip_load64_line66,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,lincomb,loadStoreSkip/lincomb_line7_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,lincomb,loopOrFuncSkip/lincomb_fnSkip_add_f_line10,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,lincomb,loopOrFuncSkip/lincomb_fnSkip_mul_f_line9,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,load64,binOpFault/load64_line10_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,load64,binOpFault/load64_line10_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'x'
+mayo,load64,binOpFault/load64_line10_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'x'
+mayo,load64,binOpFault/load64_line10_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'x'
+mayo,load64,binOpFault/load64_line11_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'x'
+mayo,load64,binOpFault/load64_line11_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,load64,binOpFault/load64_line11_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'x'
+mayo,load64,binOpFault/load64_line11_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'x'
+mayo,load64,loadStoreSkip/load64_line6_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'x'
+mayo,m_calculate_M_and_VPV,loadStoreSkip/m_calculate_M_and_VPV_line18_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,m_calculate_M_and_VPV,loopOrFuncSkip/m_calculate_M_and_VPV_fnSkip_compute_M_and_VPV_implicit_line26,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,m_calculate_M_and_VPV,loopOrFuncSkip/m_calculate_M_and_VPV_fnSkip_compute_M_and_VPV_line2,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,m_calculate_M_and_VPV,loopOrFuncSkip/m_calculate_M_and_VPV_fnSkip_m_lambda_o_correction_line24,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,m_calculate_M_and_VPV,loopOrFuncSkip/m_calculate_M_and_VPV_fnSkip_m_lambda_oil_line28,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,m_calculate_M_and_VPV,loopOrFuncSkip/m_calculate_M_and_VPV_fnSkip_mvec_mul_add_line19,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line13_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line13_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'M'
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line13_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'M'
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line13_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'M'
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line20_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'M'
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line20_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line20_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'M'
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line20_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'M'
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line26_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line26_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line26_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line26_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line34_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line34_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line34_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,binOpFault/m_compute_A_acc_line34_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,loadStoreSkip/m_compute_A_acc_line11_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'M'
+mayo,m_compute_A_acc,loadStoreSkip/m_compute_A_acc_line19_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,loadStoreSkip/m_compute_A_acc_line21_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,loadStoreSkip/m_compute_A_acc_line33_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_A_acc,loadStoreSkip/m_compute_A_acc_line35_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_compute_s,loopOrFuncSkip/m_compute_s_fnSkip_mat_add_line12,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,m_compute_s,loopOrFuncSkip/m_compute_s_fnSkip_mat_mul_line9,direct_leak_result.txt,direct_leak,yes,"eph_secret: output 's' at [0, 1, ..., 79] (74 positions) holds input 'Vdec' at the same index in all 16 trace(s) where the fault changed it"
+mayo,m_compute_s,loopOrFuncSkip/m_compute_s_fnSkip_mayo_secure_clear_line21,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces; eph_secret: the fault changed no output in the traces
+mayo,m_compute_s,loopOrFuncSkip/m_compute_s_fnSkip_memcpy_line18,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'; eph_secret: the changed output positions do not hold input 'Vdec'
+mayo,m_extract_element,binOpFault/m_extract_element_line6_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_extract_element,binOpFault/m_extract_element_line6_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_extract_element,binOpFault/m_extract_element_line6_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_extract_element,binOpFault/m_extract_element_line6_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_extract_element,binOpFault/m_extract_element_line8_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_extract_element,binOpFault/m_extract_element_line8_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_extract_element,binOpFault/m_extract_element_line8_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_extract_element,binOpFault/m_extract_element_line8_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_extract_element,loadStoreSkip/m_extract_element_line3_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_gf16_mulc_xor,loopOrFuncSkip/m_gf16_mulc_xor_fnSkip_m_gf16_mulc_xor_scalar_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line18_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line18_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line18_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line18_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line19_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line19_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line19_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line19_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line20_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line20_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line20_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line20_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line21_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line21_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line21_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line21_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line22_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line22_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line22_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line22_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line23_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line23_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line23_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line23_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line24_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line24_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line24_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line24_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line25_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line25_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line25_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line25_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line26_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line26_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line26_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line26_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line27_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line27_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line27_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line27_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line28_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line28_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line28_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line28_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line29_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line29_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line29_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line29_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line30_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line30_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line30_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line30_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line31_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line31_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line31_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line31_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line34_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line34_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line34_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,binOpFault/m_gf16_mulc_xor_scalar_line34_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,loadStoreSkip/m_gf16_mulc_xor_scalar_line17_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'src'
+mayo,m_gf16_mulc_xor_scalar,loadStoreSkip/m_gf16_mulc_xor_scalar_line33_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_gf16_mulc_xor_scalar,loadStoreSkip/m_gf16_mulc_xor_scalar_line35_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_lambda_o_correction,loadStoreSkip/m_lambda_o_correction_line15_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,m_lambda_o_correction,loopOrFuncSkip/m_lambda_o_correction_fnSkip_mvec_mul_add_line16,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'O'
+mayo,m_lambda_oil,binOpFault/m_lambda_oil_line17_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_lambda_oil,binOpFault/m_lambda_oil_line17_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_lambda_oil,binOpFault/m_lambda_oil_line17_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_lambda_oil,binOpFault/m_lambda_oil_line17_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_lambda_oil,loadStoreSkip/m_lambda_oil_line16_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_lambda_oil,loadStoreSkip/m_lambda_oil_line18_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_add,binOpFault/m_vec_add_line8_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_add,binOpFault/m_vec_add_line8_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_add,binOpFault/m_vec_add_line8_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_add,binOpFault/m_vec_add_line8_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_add,loadStoreSkip/m_vec_add_line7_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_add,loadStoreSkip/m_vec_add_line9_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line10_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line10_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line10_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line10_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line11_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line11_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line11_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line11_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line12_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line12_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line12_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line12_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line13_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line13_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line13_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line13_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line14_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line14_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line14_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line14_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line16_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line16_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line16_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line16_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line17_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line17_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line17_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line17_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line20_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line20_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line20_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line20_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line21_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line21_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line21_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line21_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line22_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line22_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line22_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line22_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line23_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line23_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line23_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line23_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line25_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line25_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line25_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line25_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line26_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line26_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line26_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line26_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line29_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line29_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line29_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line29_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line30_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line30_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line30_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line30_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line31_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line31_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line31_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line31_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line32_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line32_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line32_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line32_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line34_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line34_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line34_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line34_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line35_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line35_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line35_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line35_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line38_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line38_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line38_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line38_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line7_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line7_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line7_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line7_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line8_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line8_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line8_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,binOpFault/m_vec_mul_add_line8_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,loadStoreSkip/m_vec_mul_add_line19_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,loadStoreSkip/m_vec_mul_add_line28_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,loadStoreSkip/m_vec_mul_add_line37_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_mul_add,loadStoreSkip/m_vec_mul_add_line39_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,m_vec_mul_add,loadStoreSkip/m_vec_mul_add_line6_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
+mayo,m_vec_mul_add,loopOrFuncSkip/m_vec_mul_add_fnSkip_mul_table_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'in'
 mayo,mat_add,loadStoreSkip/mat_add_line10_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'; eph_secret: the changed output positions do not hold input 'a'
 mayo,mat_add,loadStoreSkip/mat_add_line5_mem,direct_leak_result.txt,direct_leak,yes,secret-buf: output 'c' at [0] holds input 'b' at the same index in all 16 trace(s) where the fault changed it
 mayo,mat_add,loadStoreSkip/mat_add_line7_mem,direct_leak_result.txt,direct_leak,yes,eph_secret: output 'c' at [0] holds input 'a' at the same index in all 15 trace(s) where the fault changed it
 mayo,mat_add,loopOrFuncSkip/mat_add_fnSkip_add_f_line8,direct_leak_result.txt,direct_leak,yes,eph_secret: output 'c' at [0] holds input 'a' at the same index in all 15 trace(s) where the fault changed it
+mayo,mat_mul,loadStoreSkip/mat_mul_line11_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mat_mul,loopOrFuncSkip/mat_mul_fnSkip_lincomb_line10,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_add_m_upper_triangular_mat_x_mat,loadStoreSkip/mul_add_m_upper_triangular_mat_x_mat_line21_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_add_m_upper_triangular_mat_x_mat,loopOrFuncSkip/mul_add_m_upper_triangular_mat_x_mat_fnSkip_m_vec_mul_add_line26,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_add_m_upper_triangular_mat_x_mat_trans,loadStoreSkip/mul_add_m_upper_triangular_mat_x_mat_trans_line21_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_add_m_upper_triangular_mat_x_mat_trans,loopOrFuncSkip/mul_add_m_upper_triangular_mat_x_mat_trans_fnSkip_m_vec_mul_add_line26,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_add_mat_trans_x_m_mat,loadStoreSkip/mul_add_mat_trans_x_m_mat_line19_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_add_mat_trans_x_m_mat,loopOrFuncSkip/mul_add_mat_trans_x_m_mat_fnSkip_m_vec_mul_add_line24,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_add_mat_x_m_mat,loadStoreSkip/mul_add_mat_x_m_mat_line19_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_add_mat_x_m_mat,loopOrFuncSkip/mul_add_mat_x_m_mat_fnSkip_m_vec_mul_add_line24,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'mat'
+mayo,mul_f,binOpFault/mul_f_line10_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line10_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line10_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line10_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line11_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line11_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line11_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line11_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line12_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line12_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line12_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line12_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line13_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line13_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line13_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line13_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line14_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line14_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line14_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line14_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line15_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line15_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line15_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line15_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line16_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line16_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line16_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line16_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line17_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line17_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line17_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line17_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line18_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line18_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line18_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line18_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line1_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,mul_f,binOpFault/mul_f_line1_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line1_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line1_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line3_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line3_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line3_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line3_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line4_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line4_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line4_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line4_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line6_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line6_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line6_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line6_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line7_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line7_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line7_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line7_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line8_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line8_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line8_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line8_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line9_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line9_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line9_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_f,binOpFault/mul_f_line9_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,mul_table,binOpFault/mul_table_line1_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line1_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line1_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line1_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line2_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line2_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line2_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line2_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line3_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line3_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line3_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line3_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line4_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line4_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line4_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line4_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line5_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line5_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line5_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line5_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line6_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line6_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line6_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mul_table,binOpFault/mul_table_line6_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'b'
+mayo,mvec_mul_add,loopOrFuncSkip/mvec_mul_add_fnSkip_vec_mul_add_u64_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'c'
+mayo,pqmayo_MAYO_1_ref_mayo_expand_sk,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_expand_sk_fnSkip_expand_sk_internal_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_keypair,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_fnSkip_pqmayo_MAYO_1_ref_mayo_keypair_compact_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold correct output 'sk'
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_compute_P3_line14,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold correct output 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_decode_line10,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold correct output 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_expand_P1_P2_line11,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold correct output 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_mayo_secure_clear_line22,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_mayo_secure_clear_line23,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_memset_line13,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_randombytes_line7,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold correct output 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_keypair_compact,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_keypair_compact_fnSkip_shake256_line8,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold correct output 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_sign,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_sign_fnSkip_pqmayo_MAYO_1_ref_mayo_sign_signature_line5,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_sign_signature,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_sign_signature_fnSkip_expand_sk_internal_line1,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'csk'
+mayo,pqmayo_MAYO_1_ref_mayo_sign_signature,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_sign_signature_fnSkip_mayo_secure_clear_line3,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,pqmayo_MAYO_1_ref_mayo_sign_signature,loopOrFuncSkip/pqmayo_MAYO_1_ref_mayo_sign_signature_fnSkip_sign_signature_internal_line2,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'csk'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line101_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line101_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line101_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line101_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line106_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line106_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line106_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line106_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line107_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line107_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line107_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line107_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line110_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line110_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line110_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line110_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line127_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line127_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line127_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line127_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line128_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line128_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line128_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line128_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line135_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line135_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line135_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line135_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line136_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line136_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line136_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line136_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line143_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line143_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line143_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line143_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line144_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line144_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line144_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line144_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line151_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line151_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line151_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line151_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line152_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line152_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line152_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line152_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line159_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line159_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line159_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line159_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line160_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line160_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line160_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line160_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line167_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line167_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line167_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line167_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line168_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line168_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line168_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line168_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line175_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line175_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line175_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line175_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line176_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line176_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line176_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line176_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line184_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line184_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line184_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line184_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line185_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line185_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line185_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line185_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line187_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line187_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line187_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line187_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line194_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line194_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line194_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line194_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line195_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line195_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line195_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line195_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line197_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line197_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line197_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line197_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line204_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line204_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line204_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line204_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line205_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line205_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line205_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line205_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line207_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line207_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line207_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line207_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line214_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line214_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line214_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line214_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line215_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line215_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line215_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line215_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line217_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line217_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line217_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line217_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line224_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line224_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line224_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line224_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line225_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line225_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line225_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line225_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line227_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line227_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line227_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line227_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line234_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line234_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line234_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line234_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line235_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line235_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line235_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line235_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line237_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line237_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line237_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line237_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line244_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line244_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line244_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line244_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line245_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line245_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line245_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line245_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line247_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line247_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line247_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line247_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line254_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line254_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line254_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line254_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line258_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line258_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line258_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line258_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line66_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line66_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line66_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,binOpFault/pqmayo_MAYO_1_ref_sample_solution_line66_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line105_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line109_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line111_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line119_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line125_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line133_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line141_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line149_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line14_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line157_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line165_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line173_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line182_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line186_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line192_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line196_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line202_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line206_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line212_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line216_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line222_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line226_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line232_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line236_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line242_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line246_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line252_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line255_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line26_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line37_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line47_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line65_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loadStoreSkip/pqmayo_MAYO_1_ref_sample_solution_line99_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loopOrFuncSkip/pqmayo_MAYO_1_ref_sample_solution_fnSkip_EF_line52,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loopOrFuncSkip/pqmayo_MAYO_1_ref_sample_solution_fnSkip_ct_compare_8_line100,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,pqmayo_MAYO_1_ref_sample_solution,loopOrFuncSkip/pqmayo_MAYO_1_ref_sample_solution_fnSkip_mat_mul.21_line31,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'A'
+mayo,pqmayo_MAYO_1_ref_sample_solution,loopOrFuncSkip/pqmayo_MAYO_1_ref_sample_solution_fnSkip_mul_fx8_line177,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,pqmayo_MAYO_1_ref_sample_solution,loopOrFuncSkip/pqmayo_MAYO_1_ref_sample_solution_fnSkip_sub_f_line40,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,shake256,loadStoreSkip/shake256_line19_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'input'
+mayo,shake256,loopOrFuncSkip/shake256_fnSkip_shake256_absorb_line3,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'input'
+mayo,shake256,loopOrFuncSkip/shake256_fnSkip_shake256_ctx_release_line24,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,shake256,loopOrFuncSkip/shake256_fnSkip_shake256_squeezeblocks_line11,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'input'
+mayo,shake256,loopOrFuncSkip/shake256_fnSkip_shake256_squeezeblocks_line4,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'input'
+mayo,shake256_absorb,loadStoreSkip/shake256_absorb_line1_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'input'
+mayo,shake256_absorb,loadStoreSkip/shake256_absorb_line6_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,shake256_absorb,loopOrFuncSkip/shake256_absorb_fnSkip_keccak_absorb_line7,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,shake256_squeezeblocks,loadStoreSkip/shake256_squeezeblocks_line0_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,shake256_squeezeblocks,loopOrFuncSkip/shake256_squeezeblocks_fnSkip_keccak_squeezeblocks_line1,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loadStoreSkip/sign_signature_internal_line36_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loadStoreSkip/sign_signature_internal_line60_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_compute_A_line52,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_compute_rhs_line51,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_decode_line46,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_decode_line64,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_m_calculate_M_and_VPV_line50,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_m_compute_s_line73,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'sk'
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_mayo_memset_line13,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_mayo_memset_line17,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_mayo_secure_clear_line81,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_mayo_secure_clear_line82,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_mayo_secure_clear_line83,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_mayo_secure_clear_line85,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_mayo_secure_clear_line86,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_memcpy_line22,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_memcpy_line25,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'sk'
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_memset_line68,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_memset_line69,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_pqmayo_MAYO_1_ref_sample_solution_line65,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_randombytes_line19,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'sk'
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_shake256_line15,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'sk'
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_shake256_line23,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'sk'
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_shake256_line27,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'sk'
+mayo,sign_signature_internal,loopOrFuncSkip/sign_signature_internal_fnSkip_shake256_line37,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,store64,binOpFault/store64_line6_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,store64,binOpFault/store64_line6_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'u'
+mayo,store64,binOpFault/store64_line6_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'u'
+mayo,store64,binOpFault/store64_line6_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'u'
+mayo,store64,loadStoreSkip/store64_line9_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'u'
+mayo,sub_f,binOpFault/sub_f_line0_opA,direct_leak_result.txt,direct_leak,yes,secret-buf: output 'ret' at [0] holds input 'a' at the same index in all 16 trace(s) where the fault changed it
+mayo,sub_f,binOpFault/sub_f_line0_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,sub_f,binOpFault/sub_f_line0_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,sub_f,binOpFault/sub_f_line0_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the changed output positions do not hold input 'a'
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line104_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line104_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line104_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line104_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line109_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line109_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line109_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line109_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line118_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line118_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line118_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line118_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line11_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line11_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line11_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line11_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line122_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line122_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line122_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line122_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line123_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line123_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line123_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line123_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line124_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line124_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line124_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line124_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line127_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line127_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line127_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line127_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line12_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line12_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line12_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line12_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line132_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line132_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line132_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line132_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line13_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line13_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line13_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line13_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line16_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line16_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line16_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line16_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line21_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line21_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line21_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line21_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line31_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line31_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line31_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line31_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line35_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line35_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line35_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line35_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line36_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line36_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line36_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line36_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line40_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line40_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line40_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line40_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line44_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line44_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line44_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line44_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line45_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line45_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line45_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line45_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line46_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line46_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line46_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line46_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line49_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line49_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line49_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line49_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line51_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line51_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line51_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line51_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line55_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line55_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line55_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line55_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line60_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line60_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line60_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line60_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line65_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line65_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line65_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line65_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line75_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line75_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line75_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line75_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line79_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line79_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line79_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line79_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line7_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line7_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line7_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line7_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line80_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line80_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line80_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line80_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line84_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line84_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line84_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line84_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line88_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line88_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line88_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line88_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line89_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line89_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line89_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line89_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line90_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line90_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line90_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line90_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line93_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line93_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line93_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line93_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line95_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line95_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line95_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line95_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line99_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line99_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line99_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,binOpFault/transpose_16x16_nibbles_line99_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line100_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line103_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line105_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line108_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line10_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line110_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line117_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line121_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line126_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line128_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line131_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line133_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line15_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line17_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line20_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line22_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line30_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line34_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line39_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line43_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line48_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line50_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line54_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line56_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line59_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line61_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line64_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line66_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line6_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line74_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line78_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line83_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line87_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line92_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line94_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,transpose_16x16_nibbles,loadStoreSkip/transpose_16x16_nibbles_line98_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line10_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line10_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line10_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line10_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line13_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line13_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line13_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line13_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line14_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line14_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line14_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line14_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line16_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line16_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line16_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line16_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line17_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line17_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line17_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line17_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line22_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line22_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line22_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line22_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line23_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line23_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line23_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line23_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line25_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line25_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line25_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line25_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line26_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line26_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line26_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line26_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line31_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line31_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line31_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line31_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line32_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line32_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line32_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line32_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line34_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line34_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line34_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line34_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line35_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line35_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line35_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line35_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line38_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line38_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line38_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line38_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line8_opA,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line8_opB,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line8_undef,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,binOpFault/vec_mul_add_u64_line8_zero,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,loadStoreSkip/vec_mul_add_u64_line37_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,loadStoreSkip/vec_mul_add_u64_line39_mem,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces
+mayo,vec_mul_add_u64,loopOrFuncSkip/vec_mul_add_u64_fnSkip_mul_table_line0,direct_leak_result.txt,direct_leak,no,secret-buf: the fault changed no output in the traces

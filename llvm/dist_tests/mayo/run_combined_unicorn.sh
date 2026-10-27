@@ -196,6 +196,24 @@ for var in SECRET_BUF EPH_SECRET; do
         printf -v "$var" '%s' "$resolved"
     fi
 done
+
+# Fail now, not after every sweep has been collected, if a name still does
+# not match the layout (e.g. a call-site expression name that is neither a
+# parameter nor the driver buffer it was traced to).
+if ! python3 - "$WITNESS" "$SECRET_BUF" "$EPH_SECRET" <<'PYEOF'
+import json, sys
+layout = json.load(open(sys.argv[1]))["layout"]
+bad = [n for n in sys.argv[2:] if n and n not in layout]
+if bad:
+    aliases = {k: s["alloca"] for k, s in layout.items() if "alloca" in s}
+    print(f"[!] {bad} not in the witness layout: name a parameter "
+          f"{list(layout)} (or the driver buffer it is bound to: {aliases}) "
+          f"in mayo.json", file=sys.stderr)
+    sys.exit(1)
+PYEOF
+then
+    exit 1
+fi
 [[ -f "$CORRECT_ELF" ]] || { echo "[!] correct elf not found: $CORRECT_ELF" >&2; exit 1; }
 
 # Faulty builds are not necessarily immediate children of the correct
