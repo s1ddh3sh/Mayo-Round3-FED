@@ -526,6 +526,93 @@ def plot_scheme_summary(scheme, rows, out_path):
     return out_path
 
 
+def _short_func_name(name):
+    """Display name only: drop the parameter-set namespace prefix."""
+    return re.sub(r"^pq\w+?_MAYO_\d_ref_", "", name)
+
+
+def plot_scheme_rate(scheme, rows, out_path):
+    """Small multiples, one panel per test, each listing only the functions
+    that test ran on, sorted by detection rate. Bars are the detected share
+    (0-100 %, so a function with 206 faults does not squash one with 2) on a
+    faint 100 % track; each row is labeled detected/tested so a 1/1 is not
+    read like 201/206. Timed-out faults are a hatched segment after it."""
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+    except ImportError as e:
+        raise RuntimeError(
+            "matplotlib is required for --plot (pip install matplotlib)"
+        ) from e
+
+    counts = aggregate_detection_rates(rows)
+    panels = []
+    for test in TESTS:
+        items = [(f, *c[test]) for f, c in counts.items() if c[test][2]]
+        if not items:
+            continue
+        # highest rate first; ties by more faults tested, then name
+        items.sort(key=lambda it: (-it[1] / it[3], -it[3], it[0]))
+        panels.append((test, items))
+    if not panels:
+        raise RuntimeError(f"no plottable data for scheme {scheme!r}")
+
+    surface = "#fcfcfb"
+    row_h = 0.22
+    heights = [row_h * len(items) + 0.55 for _, items in panels]
+    fig = plt.figure(figsize=(8.5, sum(heights) + 0.9), dpi=150)
+    fig.patch.set_facecolor(surface)
+    gs = fig.add_gridspec(len(panels), 1, height_ratios=heights, hspace=0.9 / sum(heights) * len(panels))
+
+    for pi, (test, items) in enumerate(panels):
+        ax = fig.add_subplot(gs[pi])
+        ax.set_facecolor(surface)
+        ys = list(range(len(items)))
+        for y, (func, hit, to, tot) in zip(ys, items):
+            hit_pct, to_pct = 100.0 * hit / tot, 100.0 * to / tot
+            ax.barh(y, 100, height=0.62, color=COLOR_GRID, alpha=0.55, zorder=1)
+            if hit:
+                ax.barh(y, hit_pct, height=0.62, color=TEST_COLORS[test], zorder=3)
+            if to:
+                ax.barh(y, to_pct, left=hit_pct, height=0.62, color=COLOR_TIMEOUT,
+                        hatch="///", edgecolor=surface, linewidth=0, zorder=3)
+            lab = f"{hit}/{tot}" + (f"  ({to} TO)" if to else "")
+            ax.text(101.5, y, lab, va="center", ha="left", fontsize=7,
+                    color=COLOR_TEXT if hit else COLOR_TEXT_MUTED)
+        ax.set_yticks(ys)
+        ax.set_yticklabels([_short_func_name(it[0]) for it in items], fontsize=7,
+                           color=COLOR_TEXT)
+        ax.set_ylim(len(items) - 0.5, -0.5)
+        ax.set_xlim(0, 100)
+        ax.set_xticks([0, 25, 50, 75, 100])
+        ax.set_xticklabels(["0%", "25%", "50%", "75%", "100%"], fontsize=7,
+                           color=COLOR_TEXT_MUTED)
+        ax.grid(axis="x", color=COLOR_GRID, linewidth=0.6, zorder=0)
+        ax.tick_params(axis="both", length=0)
+        for s in ax.spines.values():
+            s.set_visible(False)
+
+        n_hit = sum(it[1] for it in items)
+        n_tot = sum(it[3] for it in items)
+        n_det_funcs = sum(1 for it in items if it[1])
+        ax.set_title(
+            f"{TEST_LABELS[test]} test: {n_hit}/{n_tot} faults detected "
+            f"({100.0 * n_hit / n_tot:.0f}%), in {n_det_funcs} of "
+            f"{len(items)} functions",
+            loc="left", fontsize=9, color=COLOR_TEXT, pad=6)
+
+    # Fixed inch offsets: as fractions of this tall figure the default
+    # suptitle position leaves a large gap above the first panel.
+    fig_h = fig.get_figheight()
+    fig.subplots_adjust(top=1 - 0.75 / fig_h, bottom=0.25 / fig_h)
+    fig.suptitle(f"{scheme}: share of faults with the leak detected, per function "
+                 f"(label = detected/tested)",
+                 x=0.02, y=1 - 0.2 / fig_h, ha="left", fontsize=10, color=COLOR_TEXT)
+    fig.savefig(out_path, bbox_inches="tight", facecolor=surface)
+    plt.close(fig)
+
+
 def plot_combined(rows_by_scheme, out_path):
     """One figure covering every scheme: per scheme, one 100%-stacked bar
     per test with data (ineffective / correction / direct leak), split into
@@ -608,6 +695,46 @@ def plot_combined(rows_by_scheme, out_path):
     return out_path
 
 
+# Functions whose output lands in the final signature without further mixing,
+# per scheme. For these tests only these functions are plotted (the CSVs keep
+# everything; --all-funcs plots everything). MAYO round-3:
+#   sig = encode(s) || salt,  s_i = [ v_i + O x_i | x_i ]  (m_compute_s)
+#   - mayo_sign / mayo_sign_signature / sign_signature_internal: sig itself
+#   - m_compute_s: s
+#   - mat_add, add_f: v + Ox (add_f's only callers are mat_add and lincomb)
+#   - mat_mul, lincomb, mul_f: Ox = O x (mat_mul/lincomb are only reached
+#     from m_compute_s; mul_f is also used by compute_A/compute_rhs, but in
+#     lincomb it forms each O[i][k] x[k] term of Ox)
+#   - sample_solution: x, copied verbatim into s
+# Left out: functions whose output only feeds the linear system or other
+# intermediates (EF, sub_f, compute_A, compute_rhs, decode, ...).
+SIGNATURE_PATH_FUNCS = {
+    "mayo": {
+        "pqmayo_MAYO_1_ref_mayo_sign",
+        "pqmayo_MAYO_1_ref_mayo_sign_signature",
+        "sign_signature_internal",
+        "m_compute_s",
+        "mat_add",
+        "add_f",
+        "mat_mul",
+        "lincomb",
+        "mul_f",
+        "pqmayo_MAYO_1_ref_sample_solution",
+    },
+}
+SIGNATURE_PATH_TESTS = ("correction", "direct_leak")
+
+
+def signature_path_rows(scheme, rows):
+    """rows with correction/direct_leak results kept only for the scheme's
+    SIGNATURE_PATH_FUNCS (unchanged if the scheme has no list)."""
+    funcs = SIGNATURE_PATH_FUNCS.get(scheme)
+    if not funcs:
+        return rows
+    return [r for r in rows
+            if r["test"] not in SIGNATURE_PATH_TESTS or r["function"] in funcs]
+
+
 def find_tests_root(root, scheme, override=None):
     """The scheme's results directory: --tests-dir if given, else the first
     that exists of tests_<scheme>/ (test_qemu layout), test_<scheme>/ and
@@ -647,18 +774,26 @@ def main():
              "(requires matplotlib).",
     )
     ap.add_argument(
-        "--style", choices=("bar", "heatmap", "summary"), default="bar",
+        "--style", choices=("bar", "heatmap", "summary", "rate"), default="bar",
         help="plot style used with --plot: 'bar' (default, "
              "fault_report_<scheme>.png) or the more compact 'heatmap' "
              "(fault_report_<scheme>_heatmap.png) or 'summary' (overall "
              "stacked bars + per-function table, "
-             "fault_report_<scheme>_summary.png).",
+             "fault_report_<scheme>_summary.png) or 'rate' (one panel per "
+             "test, detection rate per function on a 0-100%% axis, "
+             "fault_report_<scheme>_rate.png).",
     )
     ap.add_argument(
         "--direct-leak-csv", default="direct_leak_report.csv",
         help="CSV written by dist_tests/run_direct_leak.sh, relative to --root "
              "unless absolute (default: %(default)s). Its rows are added as the "
              "'direct_leak' test to the CSVs and plots; ignored if missing.",
+    )
+    ap.add_argument(
+        "--all-funcs", action="store_true",
+        help="plot correction/direct-leak results for every function, not "
+             "only those on the signature path (SIGNATURE_PATH_FUNCS). The "
+             "CSVs always hold every result.",
     )
     ap.add_argument(
         "--combined", action="store_true",
@@ -688,8 +823,9 @@ def main():
         tests_root = find_tests_root(args.root, scheme, args.tests_dir)
         rows = list(scan_scheme(scheme, tests_root)) + direct_leak.get(scheme, [])
         all_rows.extend(rows)
-        if rows:
-            rows_by_scheme[scheme] = rows
+        plot_rows = rows if args.all_funcs else signature_path_rows(scheme, rows)
+        if plot_rows:
+            rows_by_scheme[scheme] = plot_rows
 
         out_path = os.path.join(args.outdir, f"fault_report_{scheme}.csv")
         with open(out_path, "w", newline="") as f:
@@ -709,15 +845,22 @@ def main():
         else:
             print(f"[{scheme}] {out_path}: no result files found under {tests_root}")
 
-        if args.plot and rows:
-            if args.style in ("heatmap", "summary"):
+        if args.plot and plot_rows and plot_rows is not rows:
+            print(f"[{scheme}] plots: correction/direct-leak limited to "
+                  f"{len(SIGNATURE_PATH_FUNCS[scheme])} signature-path "
+                  f"function(s) ({len(rows) - len(plot_rows)} result(s) left "
+                  f"out; --all-funcs to plot all)")
+        if args.plot and plot_rows:
+            if args.style in ("heatmap", "summary", "rate"):
                 png_path = os.path.join(args.plotdir, f"fault_report_{scheme}_{args.style}.png")
-                plot_fn = plot_scheme_heatmap if args.style == "heatmap" else plot_scheme_summary
+                plot_fn = {"heatmap": plot_scheme_heatmap,
+                           "summary": plot_scheme_summary,
+                           "rate": plot_scheme_rate}[args.style]
             else:
                 png_path = os.path.join(args.plotdir, f"fault_report_{scheme}.png")
                 plot_fn = plot_scheme
             try:
-                plot_fn(scheme, rows, png_path)
+                plot_fn(scheme, plot_rows, png_path)
                 print(f"[{scheme}] {png_path}: detection-by-function {args.style}")
             except RuntimeError as e:
                 print(f"[{scheme}] [!] plot skipped: {e}")
