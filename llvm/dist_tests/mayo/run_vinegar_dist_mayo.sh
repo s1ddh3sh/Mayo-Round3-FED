@@ -137,8 +137,14 @@ plan_one_func() {
             return 1
         fi
         [[ -x "$MAYO_BUILD" ]] || { echo "[!] mayo_build.sh not found/executable: $MAYO_BUILD" >&2; return 1; }
-        echo "[i] ${func_name}: gated ELFs not found; building from ${src_dir} via mayo_build.sh ..."
-        "$MAYO_BUILD" "$src_dir" || { echo "[!] ${func_name}: build failed -- skipping" >&2; return 1; }
+        echo "[i] ${func_name}: gated ELFs not found; building ONLY the ${GATED_DIR}/ IR under ${src_dir} (not the per-function .ll) ..."
+        local _gdir _built=0
+        while IFS= read -r _gdir; do
+            echo "[i]   building ${_gdir}"
+            "$MAYO_BUILD" "$_gdir" || { echo "[!] ${func_name}: build failed for ${_gdir} -- skipping" >&2; return 1; }
+            _built=$((_built + 1))
+        done < <(find "$src_dir" -type d -name "${GATED_DIR}" | sort)
+        [[ "$_built" -gt 0 ]] || { echo "[!] ${func_name}: no ${GATED_DIR}/ dirs found under ${src_dir} -- skipping" >&2; return 1; }
     fi
 
     [[ -d "$elf_dir" ]] || { echo "[!] ${func_name}: elf dir not found: $elf_dir -- skipping" >&2; return 1; }
