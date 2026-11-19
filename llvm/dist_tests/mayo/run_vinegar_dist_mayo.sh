@@ -141,7 +141,12 @@ plan_one_func() {
         local _gdir _built=0
         while IFS= read -r _gdir; do
             echo "[i]   building ${_gdir}"
-            "$MAYO_BUILD" "$_gdir" || { echo "[!] ${func_name}: build failed for ${_gdir} -- skipping" >&2; return 1; }
+            # The build script also tries to extract a qemu_witness.json keyed to
+            # the TARGET dir's own basename. For a ${GATED_DIR}/ subdir there is
+            # no "${GATED_DIR}.ll", so it returns non-zero AFTER the ELFs are
+            # produced. The vinegar test needs no witness, so a non-zero exit is
+            # not fatal -- the real check is whether the correct ELF exists below.
+            "$MAYO_BUILD" "$_gdir" || echo "[i]   ${_gdir}: build script non-zero (likely witness extraction only) -- continuing" >&2
             _built=$((_built + 1))
         done < <(find "$src_dir" -type d -name "${GATED_DIR}" | sort)
         [[ "$_built" -gt 0 ]] || { echo "[!] ${func_name}: no ${GATED_DIR}/ dirs found under ${src_dir} -- skipping" >&2; return 1; }
